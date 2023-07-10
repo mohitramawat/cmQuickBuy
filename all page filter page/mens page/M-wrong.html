@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-Commerce</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="../mens.css" />
+  <link rel="stylesheet" href="../style.css">
+  <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="../allstyle.css">
+</head>
+
+<body>
+
+  <section id="header">
+    <div class="navigation">
+      <div style="display: flex; width: 693px; height: 60px;">
+        <a href="#"><img src="Images/logo.png" class="logo" width="125" style="margin-top: 4px;"></a>
+        <ul id="navbar">
+          <li><a href="../../index.html" class="active">Home</a></li>
+          <li><a href="../../shop.html">Shop</a></li>
+          <li><a href="../../About us/aboutus.html">About</a></li>
+          <li><a href="../../contact.html">Contact</a></li>
+
+          <div class="dropdown">
+            <li><a href="#">Studio <sup style="color: #e02a2d; font-size: 14px;">New</sup></a></li>
+
+            <div class="dropdown-content" style="width: 500px; min-height: 400px; top: 22px;;">
+
+              <div class="box1" style="text-align: center;">
+                <img src="Images/st.png" width="150px">
+                <p>Your daily inspiration for everything fashion</p>
+              </div>
+              <div class="box2">
+                <img src="Images/st1.png" alt="" width="100%" height="100%">
+              </div>
+              <div class="box3">
+                <button class="explore-btn">EXPLORE STUDIO > </button>
+              </div>
+
+            </div>
+          </div>
+        </ul>
+      </div>
+
+
+      <div style="display: flex;">
+
+        <!-- <div style="display: flex;"> -->
+        <i class="fa fa-search"></i>
+        <input type="text" class="header-input" placeholder="Search for products, brands and more">
+        <!-- </div> -->
+        <ul id="navbar" style="float: right;">
+          <div class="dropdown">
+            <li><a href="../../cart.html"><i class="fa fa-solid fa-user dropdown-btn"></i></a></li>
+            <div class="dropdown-content" style="width: 240px; position: absolute; left: -80px; top: 25px;">
+
+              <div class="div1">
+                <a href="" style="color: black; font-weight: 600;">Hello User</a>
+                <a href="">8107122911</a>
+              </div>
+              <div class="div2">
+                <a href="">Orders</a>
+                <a href="">Wishlist</a>
+                <a href="">Gift Cards</a>
+                <a href="">Contact Us</a>
+                <a href="">QuickBuy Insider <button class="new-btn">New</button></a>
+              </div>
+              <div class="div3">
+                <a href="">QuickBuy Credit</a>
+                <a href="">Coupons</a>
+                <a href="">Saved Cards</a>
+                <a href="">Saved VPA</a>
+                <a href="">Saved Addresses</a>
+              </div>
+              <div class="div4">
+                <a href="">Edit Profile</a>
+                <a href="">Logout</a>
+              </div>
+            </div>
+          </div>
+          <li><a href="../../cart/index.html"><i class="fa fa-bag-shopping"></i></a></li>
+          <li><a href="../../wishlist2/wish.html"><i class="fa-solid fa-heart"></i></a></li>
+
+        </ul>
+      </div>
+    </div>
+  </section>
+  <section id="header2">
+
+    <div class="navbar2">
+      <div class="navbar2img"><a href="../../fashion.html"><img src="Images/h2.jpg"><br><a href="#"
+            style="padding-left: 20px;">Fashion</a></div>
+      <div class="navbar2img"><a href="#"><img src="Images/h4.jpg"><br><a href="#"
+            style="padding-left: 20px;">Mobiles</a></div>
+      <div class="navbar2img"><a href="#"><img src="Images/h6.jpg"><br><a href="#"
+            style="padding-left: 10px;">Electronics</a></div>
+      <div class="navbar2img"><a href="#"><img src="Images/h5.png"><br><a href="#"
+            style="padding-left: 22px;">Beauty</a></div>
+      <div class="navbar2img"><a href="#"><img src="Images/h3.jpg"><br><a href="#"
+            style="padding-left: 20px;">Furniture</a></div>
+    </div>
+
+  </section>
+  <!-- hedaer end -->
+
+  <!-- content start -->
+
+
+
+  <div class="product-name">
+    <div>
+      <p>Wrong- <span>4535 items</span></p>
+    </div>
+  </div>
+  <div id="wrapper">
+    <div id="filter">
+      <div class="a">
+        <h3>FILTERS </h3>
+        <div>
+          <input type="radio" id="sagar" name="group">
+          <label for="sagar">Jackets</label><br>
+          <input type="radio" id="rb" name="group">
+          <label for="rb">Sweatshirts</label><br>
+        </div>
+
+      </div>
+
+
+      <div class="b">
+        <h3>PRICE</h3>
+        <div>
+          <input type="checkbox" id="cb" name="group">
+          <label for="cb">Rs 499 to Rs 1349</label><br>
+          <input type="checkbox" id="cb" name="group">
+          <label for="cb">Rs. 1349 to Rs. 2199</label><br>
+          <input type="checkbox" id="cb" name="group">
+          <label for="cb">Rs. 2199 to Rs. 3049</label><br>
+          <input type="checkbox" id="cb" name="group">
+          <label for="cb">Rs. 3049 to Rs. 3899</label><br>
+        </div>
+
+      </div>
+      <div class="b">
+        <h3>COLOR</h3>
+        <div>
+          <input type="checkbox" id="cb" name="group">
+          <label for="cb">Blue</label><br>
+          <input type="checkbox" id="cb" name="group">
+          <label for="cb">Navy Blue</label><br>
+          <input type="checkbox" id="cb" name="group">
+          <label for="cb">Black</label><br>
+          <input type="checkbox" id="cb" name="group">
+          <label for="cb">White</label><br>
+          <input type="checkbox" id="cb" name="group">
+          <label for="cb">Grey</label><br>
+          <input type="checkbox" id="cb" name="group">
+          <label for="cb">Red</label><br>
+          <input type="checkbox" id="cb" name="group">
+          <label for="cb">Green</label><br>
+        </div>
+
+      </div>
+      <div class="c">
+        <h3>DISCOUNT RANGE</h3>
+        <div>
+          <input type="radio" id="rb" name="group">
+          <label for="rb">10% and above</label><br>
+          <input type="radio" id="rb" name="group">
+          <label for="rb">20% and above</label><br>
+          <input type="radio" id="rb" name="group">
+          <label for="rb">30% and aboves</label><br>
+          <input type="radio" id="rb" name="group">
+          <label for="rb">40% and above</label><br>
+          <input type="radio" id="rb" name="group">
+          <label for="rb">50% and above</label><br>
+          <input type="radio" id="rb" name="group">
+          <label for="rb">60% and above</label><br>
+
+
+        </div>
+
+      </div>
+    </div>
+    <!-- product -->
+
+    <div class="product">
+
+      <!-- 1 -->
+      <div class="product-box">
+
+        <img src="https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/19547438/2022/9/17/73eb663b-0e47-4c6b-a92d-15c75a19fc421663405460066-WROGN-Men-Jackets-3761663405459411-1.jpg " alt="">        
+        <div class="flex pro-details">
+          <h2> Wrong</h2>
+          <p class="pro-title"> Men Self Design Biker Jacket </p>
+          <p class="pro-price">Rs. 2199 <del>Rs.3200</del><span>(75% OFF)</span></p>
+        </div>
+        <div class="rate flex">
+          <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+        </div>
+        <div class="buy-btn">
+          <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+        </div>
+
+
+      </div>
+      <!-- 2 -->
+      <div class="product-box">
+
+        <img src="https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/11822140/2020/9/18/85bda842-8a47-43f4-8cb1-a8896d691fa21600410552854-WROGN-Men-Jackets-6001600410550635-1.jpg " alt="" >
+        <div class="flex pro-details">
+          <h2>Wrong </h2>
+          <p class="pro-title">  Men Self Design Biker Jacket   </p>
+          <p class="pro-price">Rs. 2800 <del>Rs.4999</del><span>(65% OFF)</span></p>
+        </div>
+        <div class="rate flex">
+          <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+        </div>
+        <div class="buy-btn">
+          <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+        </div>
+
+
+      </div>
+
+      <!-- 3 -->
+      <div class="product-box">
+
+        <img src=" https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/14296082/2021/10/12/3ef003e1-1c24-4015-a554-1e067587358c1634019129171-WROGN-Men-Jackets-8651634019128644-1.jpg" alt="" >
+        <div class="flex pro-details">
+          <h2> Wrong </h2>
+          <p class="pro-title">  Men Self Design Biker Jacket </p>
+          <p class="pro-price">Rs. 2299 <del>Rs.3699</del><span>(75% OFF)</span></p>
+        </div>
+        <div class="rate flex">
+          <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+        </div>
+        <div class="buy-btn">
+          <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+        </div>
+
+
+      </div>
+
+      <!-- 4 -->
+      <div class="product-box">
+
+        <img src=" https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/14296114/2021/12/17/933decab-602d-4add-8f4b-0ca0e7cd6ca71639743475234-WROGN-Men-Navy-Blue-Solid-Tailored-Jacket-5851639743474609-1.jpg " alt="" >
+        <div class="flex pro-details">
+          <h2> Wrong </h2>
+          <p class="pro-title"> Men Self Design Biker Jacket </p>
+          <p class="pro-price">Rs. 2199 <del>Rs.3299</del><span>(75% OFF)</span></p>
+        </div>
+        <div class="rate flex">
+          <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+        </div>
+        <div class="buy-btn">
+          <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+        </div>
+
+
+      </div>
+
+      <!-- 5 -->
+      <div class="product-box">
+
+        <img src=" https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/19571582/2022/10/3/7a66d083-5734-438f-b04b-c3111986f1941664786193854-WROGN-Men-Jackets-3941664786193419-1.jpg " alt="" >
+        <div class="flex pro-details">
+          <h2> Wrong  </h2>
+          <p class="pro-title"> Men Self Design Biker Jacket </p>
+          <p class="pro-price">Rs. 2499 <del>Rs.3699</del><span>(75% OFF)</span></p>
+        </div>
+        <div class="rate flex">
+          <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+        </div>
+        <div class="buy-btn">
+          <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+        </div>
+      </div>
+
+      
+      <!-- 6-->
+      <div class="product-box">
+
+        <img src="https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/19547376/2022/9/28/e7fe1723-38dc-4d79-9c5a-9e2c8d43a50c1664359964869-WROGN-Men-Jackets-4571664359964283-1.jpg" alt="" >
+        <div class="flex pro-details">
+          <h2>Wrong</h2>
+          <p class="pro-title">  Men Self Design Biker Jacket</p>
+          <p class="pro-price">Rs. 2099 <del>Rs.4699</del><span>(75% OFF)</span></p>
+        </div>
+        <div class="rate flex">
+          <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+        </div>
+        <div class="buy-btn">
+          <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+        </div>
+
+
+      </div>
+      <!-- 7 -->
+      <div class="product-box">
+
+        <img src=" https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/19547376/2022/9/28/e7fe1723-38dc-4d79-9c5a-9e2c8d43a50c1664359964869-WROGN-Men-Jackets-4571664359964283-1.jpg " alt="" >
+        <div class="flex pro-details">
+          <h2> Wrong </h2>
+          <p class="pro-title">  Men Self Design Biker Jacket</p>
+          <p class="pro-price">Rs. 1999 <del>Rs.2699</del><span>(75% OFF)</span></p>
+        </div>
+        <div class="rate flex">
+          <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+        </div>
+        <div class="buy-btn">
+          <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+        </div>
+
+
+      </div>
+
+      <!-- 8 -->
+      <div class="product-box">
+
+        <img src=" https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/19571594/2022/10/17/4768323b-df23-4050-8852-86fc06174f181665984926326-WROGN-Men-Jackets-9101665984925697-1.jpg " alt="" >
+        <div class="flex pro-details">
+          <h2> Wrong  </h2>
+          <p class="pro-title"> Men Self Design Biker Jacket </p>
+          <p class="pro-price">Rs. 2100 <del>Rs.1699</del><span>(75% OFF)</span></p>
+        </div>
+        <div class="rate flex">
+          <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+        </div>
+        <div class="buy-btn">
+          <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+        </div>
+
+
+      </div>
+
+      <!-- 9 -->
+      <div class="product-box">
+
+        <img src=" https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/19571588/2022/10/17/6b8ee7e6-b43b-4f06-9cbf-c8d0b4673ef31665984484541-WROGN-Men-Jackets-4931665984484059-1.jpg " alt="" >
+        <div class="flex pro-details">
+          <h2>Wrong </h2>
+          <p class="pro-title"> Men Self Design Biker Jacket </p>
+          <p class="pro-price">Rs. 2399 <del>Rs.1699</del><span>(75% OFF)</span></p>
+        </div>
+        <div class="rate flex">
+          <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+        </div>
+        <div class="buy-btn">
+          <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+        </div>
+
+
+      </div>
+
+      <!-- 10 -->
+      <div class="product-box">
+
+        <img src=" https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/15131720/2022/1/4/7887ef66-e8da-45bf-9745-0918c6444f7f1641290745268-WROGN-Men-Sweatshirts-8401641290744771-1.jpg " alt="" >
+        <div class="flex pro-details">
+          <h2> Wrong </h2>
+          <p class="pro-title">  Men Printed Sweatshirt</p>
+          <p class="pro-price">Rs. 1199 <del>Rs.1699</del><span>(75% OFF)</span></p>
+        </div>
+        <div class="rate flex">
+          <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+        </div>
+        <div class="buy-btn">
+          <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+        </div>
+      </div>
+
+      
+      <!-- 11 -->
+      <div class="product-box">
+
+        <img src=" https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/15131050/2021/11/27/09a23f3a-1443-41a0-8c36-d4f422f13cea1637993479587-WROGN-Men-Jackets-7901637993478835-1.jpg " alt="" >
+        <div class="flex pro-details">
+          <h2> Wrong </h2>
+          <p class="pro-title"> Men Self Design Biker Jacket </p>
+          <p class="pro-price">Rs. 1990 <del>Rs.1699</del><span>(75% OFF)</span></p>
+        </div>
+        <div class="rate flex">
+          <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+        </div>
+        <div class="buy-btn">
+          <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+        </div>
+
+
+      </div>
+      <!-- 12 -->
+      <div class="product-box">
+
+        <img src="  https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/6832168/2019/12/24/4d471cb6-df4a-49eb-add6-6292f1a927661577170424708-WROGN-Men-Grey-Solid-Bomber-Jacket-4211577170421500-1.jpg" alt="">
+        <div class="flex pro-details">
+          <h2> Wrong </h2>
+          <p class="pro-title"> Men Self Design Biker Jacket </p>
+          <p class="pro-price">Rs. 2300 <del>Rs.1699</del><span>(75% OFF)</span></p>
+        </div>
+        <div class="rate flex">
+          <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+        </div>
+        <div class="buy-btn">
+          <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+        </div>
+
+
+      </div>
+
+      <!-- 13 -->
+      <div class="product-box">
+
+        <img src=" https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/14296130/2021/12/22/e5973185-f77d-49e6-bf59-7c8a4da188e21640166384467-WROGN-Men-Green-Pure-Cotton-Bomber-Jacket-4461640166383778-1.jpg " alt="" >
+        <div class="flex pro-details">
+          <h2> Wrong </h2>
+          <p class="pro-title"> Men Self Design Biker Jacket </p>
+          <p class="pro-price">Rs. 3199<del>Rs.1699</del><span>(75% OFF)</span></p>
+        </div>
+        <div class="rate flex">
+          <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+        </div>
+        <div class="buy-btn">
+          <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+        </div>
+
+
+      </div>
+
+      <!-- 14 -->
+      <div class="product-box">
+
+        <img src=" https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/19547442/2022/10/17/d2517c2e-1f55-4f33-853a-f46064c16f331665981416392-WROGN-ACTIVE-Men-Jackets-4941665981415786-1.jpg " alt="" >
+        <div class="flex pro-details">
+          <h2>Wrong  </h2>
+          <p class="pro-title"> Men Self Design Biker Jacket </p>
+          <p class="pro-price">Rs. 2399 <del>Rs.1699</del><span>(75% OFF)</span></p>
+        </div>
+        <div class="rate flex">
+          <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+        </div>
+        <div class="buy-btn">
+          <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+        </div>
+
+
+      </div>
+
+      <!-- 15 -->
+      <div class="product-box">
+
+        <img src=" https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/6832195/2021/10/11/64e71ea7-a108-43c1-b76e-8a4865b5a8951633942231951-WROGN-Men-Charcoal-Grey-Solid-Bomber-Jacket-7191633942231240-1.jpg " alt="" >
+        <div class="flex pro-details">
+          <h2> Wrong </h2>
+          <p class="pro-title"> Men Self Design Biker Jacket </p>
+          <p class="pro-price">Rs. 1999 <del>Rs.1699</del><span>(75% OFF)</span></p>
+        </div>
+        <div class="rate flex">
+          <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+        </div>
+        <div class="buy-btn">
+          <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+        </div>
+      </div>
+      
+      <!-- 16 -->
+      <div class="product-box">
+
+        <img src=" https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/19547318/2022/9/17/005a1344-5e3a-4a64-824b-a00a37c0218c1663389775985-WROGN-ACTIVE-Men-Jackets-8601663389775299-1.jpg " alt="" >
+        <div class="flex pro-details">
+          <h2> Wrong </h2>
+          <p class="pro-title">  Men Self Design Biker Jacket</p>
+          <p class="pro-price">Rs. 2399 <del>Rs.1699</del><span>(75% OFF)</span></p>
+        </div>
+        <div class="rate flex">
+          <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+        </div>
+        <div class="buy-btn">
+          <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+        </div>
+
+
+      </div>
+      <!-- 17 -->
+      <div class="product-box">
+
+        <img src=" https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/6832140/2023/4/11/93c394b4-1a6c-4d4f-be9c-e048ff86070c1681204917051-WROGN-Men-Black-Solid-Biker-Jacket-1461681204916963-11.jpg " alt="" >
+        <div class="flex pro-details">
+          <h2> Wrong </h2>
+          <p class="pro-title"> Men Self Design Biker Jacket </p>
+          <p class="pro-price">Rs. 2000 <del>Rs.1699</del><span>(75% OFF)</span></p>
+        </div>
+        <div class="rate flex">
+          <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+        </div>
+        <div class="buy-btn">
+          <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+        </div>
+
+
+      </div>
+
+      <!-- 18 -->
+      <div class="product-box">
+
+        <img src=" https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/15131106/2021/10/18/27a6a965-c69c-4f84-b6db-17df4ca2ae291634543049614-WROGN-Men-Brown-Biker-Jacket-5131634543048901-1.jpg " alt="" >
+        <div class="flex pro-details">
+          <h2> Wrong</h2>
+          <p class="pro-title"> Men Self Design Biker Jacket </p>
+          <p class="pro-price">Rs. 1999 <del>Rs.1699</del><span>(75% OFF)</span></p>
+        </div>
+        <div class="rate flex">
+          <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+        </div>
+        <div class="buy-btn">
+          <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+        </div>
+      </div>
+
+      <!-- 18 -->
+      <div class="product-box">
+
+        <img src="  https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/19547422/2022/10/14/269fdf5a-96a2-428a-93d7-b06d5be8f8921665729814172-WROGN-Men-Jackets-9071665729813496-1.jpg" alt="" >
+        <div class="flex pro-details">
+          <h2>  Wrong</h2>
+          <p class="pro-title"> Men Self Design Biker Jacket </p>
+          <p class="pro-price">Rs. 1899<del>Rs.1699</del><span>(75% OFF)</span></p>
+        </div>
+        <div class="rate flex">
+          <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+        </div>
+        <div class="buy-btn">
+          <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+        </div>
+      </div>
+
+      <!-- 18 -->
+      <div class="product-box">
+
+        <img src="  https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/12421930/2020/11/26/169e941b-e995-43cb-908b-d270cbf18bfb1606393987534FOREVER21WomenOliveGreenSolidKnee-LengthPencilSkirtJeansFORE1.jpg" alt="" >
+        <div class="flex pro-details">
+          <h2> Wrong </h2>
+          <p class="pro-title"> Men Self Design Biker Jacket </p>
+          <p class="pro-price">Rs. 1899 <del>Rs.1699</del><span>(75% OFF)</span></p>
+        </div>
+        <div class="rate flex">
+          <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+        </div>
+        <div class="buy-btn">
+          <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+
+  <!-- content End -->
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- footer -->
+  <div class="nfoot">
+    <div class="in-foot">
+
+      <div class="fn1">
+        <img src="Images/logo.png" width="140">
+        <p style="padding-block: 10px; text-align: left; ">Discover endless shopping possibilities with our
+          user-friendly website, competitive prices, secure payment options, fast shipping, and exceptional customer
+          support. Shop now!</p>
+        <a href="#" class="get-started-btn primary-button">Shop Now <i class="fa-solid fa-cart-shopping"></i>
+        </a>
+      </div>
+      <div class="fn2">
+        <h4 class="fhead">Contact</h4>
+        <p><strong>Office Address: </strong> A-15 Near LIC Office Shastri <br> Nagar, Jodhpur, RAJ</p>
+        <p><strong>Phone:</strong> 0291-27765 / (+91) 9253811711</p>
+        <p><strong>Hours:</strong> 10:00 - 18:00, Mon - Sat</p>
+        <div class="follow">
+          <h4 class="fhead">Follow Us</h4>
+          <div class="icons">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-pinterest-p"></i>
+            <i class="fab fa-youtube"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="fn3">
+        <h4 class="fhead">About</h4>
+        <a href="#">About Us</a>
+        <a href="#">Delivery Information</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms & Conditions</a>
+        <a href="#">Contact Us</a>
+      </div>
+
+      <div class="fn4">
+        <h4 class="fhead">Navigations</h4>
+        <a href="#">Home</a>
+        <a href="#">Shop</a>
+        <a href="#">Blog</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+
+        <p style="font-weight: bold;">Secured Payment Gateway</p>
+        <img src="Images/payment.png" class="pay">
+      </div>
+
+    </div>
+  </div>
+
+  <div class="team">
+    <div class="tname">
+      <p>© 2023 QuickBuy. All Rights Reserved.</p>
+      <p>Website Design and Developed By <span style="color: rgb(31, 55, 69);
+        font-weight: bold;">WEBTECH TITANS</span></p>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://kit.fontawesome.com/9a63dbdc63.js" crossorigin="anonymous"></script>
+  <div class="bell">
+    <div class="container bl">
+      <i class="fa-regular fa-bell"></i>
+    </div>
+  </div>
+</body>
+
+</html>

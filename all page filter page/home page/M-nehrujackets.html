@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-Commerce</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="../mens.css" />
+  <link rel="stylesheet" href="../style.css">
+  <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="../allstyle.css">
+</head>
+
+<body>
+
+  <section id="header">
+    <div class="navigation">
+      <div style="display: flex; width: 693px; height: 60px;">
+        <a href="#"><img src="Images/logo.png" class="logo" width="125" style="margin-top: 4px;"></a>
+        <ul id="navbar">
+          <li><a href="../../index.html" class="active">Home</a></li>
+          <li><a href="../../shop.html">Shop</a></li>
+          <li><a href="../../About us/aboutus.html">About</a></li>
+          <li><a href="../../contact.html">Contact</a></li>
+
+          <div class="dropdown">
+            <li><a href="#">Studio <sup style="color: #e02a2d; font-size: 14px;">New</sup></a></li>
+
+            <div class="dropdown-content" style="width: 500px; min-height: 400px; top: 22px;;">
+
+              <div class="box1" style="text-align: center;">
+                <img src="Images/st.png" width="150px">
+                <p>Your daily inspiration for everything fashion</p>
+              </div>
+              <div class="box2">
+                <img src="Images/st1.png" alt="" width="100%" height="100%">
+              </div>
+              <div class="box3">
+                <button class="explore-btn">EXPLORE STUDIO > </button>
+              </div>
+
+            </div>
+          </div>
+        </ul>
+      </div>
+
+
+      <div style="display: flex;">
+
+        <!-- <div style="display: flex;"> -->
+        <i class="fa fa-search"></i>
+        <input type="text" class="header-input" placeholder="Search for products, brands and more">
+        <!-- </div> -->
+        <ul id="navbar" style="float: right;">
+          <div class="dropdown">
+            <li><a href="../../cart.html"><i class="fa fa-solid fa-user dropdown-btn"></i></a></li>
+            <div class="dropdown-content" style="width: 240px; position: absolute; left: -80px; top: 25px;">
+
+              <div class="div1">
+                <a href="" style="color: black; font-weight: 600;">Hello User</a>
+                <a href="">8107122911</a>
+              </div>
+              <div class="div2">
+                <a href="">Orders</a>
+                <a href="">Wishlist</a>
+                <a href="">Gift Cards</a>
+                <a href="">Contact Us</a>
+                <a href="">QuickBuy Insider <button class="new-btn">New</button></a>
+              </div>
+              <div class="div3">
+                <a href="">QuickBuy Credit</a>
+                <a href="">Coupons</a>
+                <a href="">Saved Cards</a>
+                <a href="">Saved VPA</a>
+                <a href="">Saved Addresses</a>
+              </div>
+              <div class="div4">
+                <a href="">Edit Profile</a>
+                <a href="">Logout</a>
+              </div>
+            </div>
+          </div>
+          <li><a href="../../cart/index.html"><i class="fa fa-bag-shopping"></i></a></li>
+          <li><a href="../../wishlist2/wish.html"><i class="fa-solid fa-heart"></i></a></li>
+
+        </ul>
+      </div>
+    </div>
+  </section>
+  <section id="header2">
+
+    <div class="navbar2">
+      <div class="navbar2img"><a href="../../fashion.html"><img src="Images/h2.jpg"><br><a href="#"
+            style="padding-left: 20px;">Fashion</a></div>
+      <div class="navbar2img"><a href="#"><img src="Images/h4.jpg"><br><a href="#"
+            style="padding-left: 20px;">Mobiles</a></div>
+      <div class="navbar2img"><a href="#"><img src="Images/h6.jpg"><br><a href="#"
+            style="padding-left: 10px;">Electronics</a></div>
+      <div class="navbar2img"><a href="#"><img src="Images/h5.png"><br><a href="#"
+            style="padding-left: 22px;">Beauty</a></div>
+      <div class="navbar2img"><a href="#"><img src="Images/h3.jpg"><br><a href="#"
+            style="padding-left: 20px;">Furniture</a></div>
+    </div>
+
+  </section>
+  <!-- hedaer end -->
+
+  <!-- content start -->
+
+
+
+  <div class="product-name">
+    <div>
+      <p>Nehru Jackets- <span>885 items</span></p>
+    </div>
+  </div>
+  <div id="wrapper">
+    <div id="filter">
+    
+      <div class="b">
+        <h3>BRAND</h3>
+        <div>
+          <input type="checkbox" id="cb" name="group">
+          <label for="cb">Vastramay</label><br>
+          <input type="checkbox" id="cb" name="group">
+          <label for="cb">Tabard</label><br>
+          <input type="checkbox" id="cb" name="group">
+          <label for="cb">Fabindia</label><br>
+          <input type="checkbox" id="cb" name="group">
+          <label for="cb">Sojanya</label><br>
+          <input type="checkbox" id="cb" name="group">
+          <label for="cb">Kisah</label><br>
+          <input type="checkbox" id="cb" name="group">
+          <label for="cb">Jompers</label><br>
+          <input type="checkbox" id="cb" name="group">
+          <label for="cb">Hangup</label><br>
+          <input type="checkbox" id="cb" name="group">
+          <label for="cb">Jompers</label>
+        </div>
+
+      </div>
+      <div class="b">
+        <h3>PRICE</h3>
+        <div>
+          <input type="checkbox" id="cb" name="group">
+          <label for="cb">Rs 499 to Rs 1349</label><br>
+          <input type="checkbox" id="cb" name="group">
+          <label for="cb">Rs. 1349 to Rs. 2199</label><br>
+          <input type="checkbox" id="cb" name="group">
+          <label for="cb">Rs. 2199 to Rs. 3049</label><br>
+          <input type="checkbox" id="cb" name="group">
+          <label for="cb">Rs. 3049 to Rs. 3899</label><br>
+        </div>
+
+      </div>
+      <div class="b">
+        <h3>COLOR</h3>
+        <div>
+          <input type="checkbox" id="cb" name="group">
+          <label for="cb">Blue</label><br>
+          <input type="checkbox" id="cb" name="group">
+          <label for="cb">Navy Blue</label><br>
+          <input type="checkbox" id="cb" name="group">
+          <label for="cb">Black</label><br>
+          <input type="checkbox" id="cb" name="group">
+          <label for="cb">White</label><br>
+          <input type="checkbox" id="cb" name="group">
+          <label for="cb">Grey</label><br>
+          <input type="checkbox" id="cb" name="group">
+          <label for="cb">Red</label><br>
+          <input type="checkbox" id="cb" name="group">
+          <label for="cb">Green</label><br>
+        </div>
+
+      </div>
+      <div class="c">
+        <h3>DISCOUNT RANGE</h3>
+        <div>
+          <input type="radio" id="rb" name="group">
+          <label for="rb">10% and above</label><br>
+          <input type="radio" id="rb" name="group">
+          <label for="rb">20% and above</label><br>
+          <input type="radio" id="rb" name="group">
+          <label for="rb">30% and aboves</label><br>
+          <input type="radio" id="rb" name="group">
+          <label for="rb">40% and above</label><br>
+          <input type="radio" id="rb" name="group">
+          <label for="rb">50% and above</label><br>
+          <input type="radio" id="rb" name="group">
+          <label for="rb">60% and above</label><br>
+
+
+        </div>
+
+      </div>
+    </div>
+    <!-- product -->
+
+    <div class="product">
+
+      <!-- 1 -->
+      <div class="product-box">
+
+        <img src="https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/18331224/2022/9/9/d15ec94e-7287-4b67-9b9a-3e49a4fd355b1662697797790-Anouk-Men-Nehru-Jackets-3101662697797166-1.jpg " alt="">        
+        <div class="flex pro-details">
+          <h2>Hangup </h2>
+          <p class="pro-title"> Men Printed Nehru Jacket </p>
+          <p class="pro-price">Rs. 1199 <del>Rs.2200</del><span>(75% OFF)</span></p>
+        </div>
+        <div class="rate flex">
+          <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+        </div>
+        <div class="buy-btn">
+          <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+        </div>
+
+
+      </div>
+      <!-- 2 -->
+      <div class="product-box">
+
+        <img src=" https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/21804232/2023/2/2/befa3070-2f29-4a2e-bc35-758046a160841675315662609WovenDesignWaistcoat1.jpg" alt="" >
+        <div class="flex pro-details">
+          <h2> Jompers</h2>
+          <p class="pro-title">  Woven Design Nehru Jackets   </p>
+          <p class="pro-price">Rs. 1300 <del>Rs.1999</del><span>(65% OFF)</span></p>
+        </div>
+        <div class="rate flex">
+          <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+        </div>
+        <div class="buy-btn">
+          <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+        </div>
+
+
+      </div>
+
+      <!-- 3 -->
+      <div class="product-box">
+
+        <img src="https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/18591248/2022/9/19/a8c7e7d8-045a-495e-994c-d943364234c51663589030701-Anouk-Men-Black--Pink-Printed-Nehru-Jacket-5841663589030125-1.jpg " alt="" >
+        <div class="flex pro-details">
+          <h2>  Kisah</h2>
+          <p class="pro-title">  Men Printed Nehru Jacket </p>
+          <p class="pro-price">Rs. 1299 <del>Rs.2699</del><span>(75% OFF)</span></p>
+        </div>
+        <div class="rate flex">
+          <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+        </div>
+        <div class="buy-btn">
+          <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+        </div>
+
+
+      </div>
+
+      <!-- 4 -->
+      <div class="product-box">
+
+        <img src=" https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/18591258/2022/9/20/75fb43d3-6502-4de6-8d73-1389ef60e1af1663656365755-Anouk-Men-Nehru-Jackets-7591663656365195-5.jpg " alt="" >
+        <div class="flex pro-details">
+          <h2> Sojanya </h2>
+          <p class="pro-title"> Men Printed Nehru Jacket </p>
+          <p class="pro-price">Rs. 1199 <del>Rs.1299</del><span>(75% OFF)</span></p>
+        </div>
+        <div class="rate flex">
+          <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+        </div>
+        <div class="buy-btn">
+          <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+        </div>
+
+
+      </div>
+
+      <!-- 5 -->
+      <div class="product-box">
+
+        <img src=" https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/18591238/2022/9/8/91733b81-bc22-48aa-8a22-793f0f288a101662622501132-Anouk-Men-Nehru-Jackets-3971662622500615-5.jpg " alt="" >
+        <div class="flex pro-details">
+          <h2> Fabindia  </h2>
+          <p class="pro-title"> Men Printed Nehru Jacket </p>
+          <p class="pro-price">Rs. 1199 <del>Rs.1699</del><span>(75% OFF)</span></p>
+        </div>
+        <div class="rate flex">
+          <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+        </div>
+        <div class="buy-btn">
+          <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+        </div>
+      </div>
+
+      
+      <!-- 6-->
+      <div class="product-box">
+
+        <img src=" https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/23461314/2023/5/29/58e7a1d7-bb3c-4a74-8f51-5e085291def31685377892218VANDNAMMenwovendesignsilkNehrujacket1.jpg " alt="" >
+        <div class="flex pro-details">
+          <h2>Fabindia</h2>
+          <p class="pro-title"> Woven Design Nehru Jackets </p>
+          <p class="pro-price">Rs. 1399 <del>Rs.2699</del><span>(75% OFF)</span></p>
+        </div>
+        <div class="rate flex">
+          <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+        </div>
+        <div class="buy-btn">
+          <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+        </div>
+
+
+      </div>
+      <!-- 7 -->
+      <div class="product-box">
+
+        <img src=" https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/17094522/2022/5/13/a18498d4-c376-47f8-9208-5f753dfc3ff41652424333746-Anouk-Men-Nehru-Jackets-2791652424333324-1.jpg " alt="" >
+        <div class="flex pro-details">
+          <h2> Tabard </h2>
+          <p class="pro-title"> Woven Design Nehru Jackets </p>
+          <p class="pro-price">Rs. 1099 <del>Rs.2699</del><span>(75% OFF)</span></p>
+        </div>
+        <div class="rate flex">
+          <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+        </div>
+        <div class="buy-btn">
+          <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+        </div>
+
+
+      </div>
+
+      <!-- 8 -->
+      <div class="product-box">
+
+        <img src=" https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/23464104/2023/5/29/1121b57d-ecf0-4832-aaf1-39cc96e103d41685365903059MenNehruJacket1.jpg " alt="" >
+        <div class="flex pro-details">
+          <h2> Vastramay  </h2>
+          <p class="pro-title"> Men Printed Nehru Jacket </p>
+          <p class="pro-price">Rs. 1200 <del>Rs.1699</del><span>(75% OFF)</span></p>
+        </div>
+        <div class="rate flex">
+          <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+        </div>
+        <div class="buy-btn">
+          <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+        </div>
+
+
+      </div>
+
+      <!-- 9 -->
+      <div class="product-box">
+
+        <img src=" https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/20184272/2022/9/27/21b968d0-c2d2-47a9-a163-a751c4a0d0881664273578209Waistcoat1.jpg " alt="" >
+        <div class="flex pro-details">
+          <h2>Hangup </h2>
+          <p class="pro-title"> Men Printed Nehru Jacket </p>
+          <p class="pro-price">Rs. 1399 <del>Rs.1699</del><span>(75% OFF)</span></p>
+        </div>
+        <div class="rate flex">
+          <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+        </div>
+        <div class="buy-btn">
+          <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+        </div>
+
+
+      </div>
+
+      <!-- 10 -->
+      <div class="product-box">
+
+        <img src=" https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/19046528/2022/9/8/50fd9bc3-7ddc-43e6-8e65-25acef01caa31662622626835-Anouk-Men-Nehru-Jackets-9221662622626266-5.jpg " alt="" >
+        <div class="flex pro-details">
+          <h2> Jompers </h2>
+          <p class="pro-title"> Woven Design Nehru Jackets </p>
+          <p class="pro-price">Rs. 1099 <del>Rs.1699</del><span>(75% OFF)</span></p>
+        </div>
+        <div class="rate flex">
+          <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+        </div>
+        <div class="buy-btn">
+          <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+        </div>
+      </div>
+
+      
+      <!-- 11 -->
+      <div class="product-box">
+
+        <img src=" https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/23101182/2023/5/9/1e89a26e-c8e0-43c7-b351-729f744b193f1683634456229NehruJackets1.jpg " alt="" >
+        <div class="flex pro-details">
+          <h2>  Kisah</h2>
+          <p class="pro-title"> Men Printed Nehru Jacket </p>
+          <p class="pro-price">Rs. 1990 <del>Rs.1699</del><span>(75% OFF)</span></p>
+        </div>
+        <div class="rate flex">
+          <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+        </div>
+        <div class="buy-btn">
+          <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+        </div>
+
+
+      </div>
+      <!-- 12 -->
+      <div class="product-box">
+
+        <img src=" https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/19881472/2022/9/10/3fd5fce3-074a-4368-bc62-7b76f46e13141662824877913VastramayMensBlueSilkBlendNehruJacket1.jpg " alt="">
+        <div class="flex pro-details">
+          <h2> Sojanya </h2>
+          <p class="pro-title"> Woven Design Nehru Jackets </p>
+          <p class="pro-price">Rs. 1300 <del>Rs.1699</del><span>(75% OFF)</span></p>
+        </div>
+        <div class="rate flex">
+          <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+        </div>
+        <div class="buy-btn">
+          <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+        </div>
+
+
+      </div>
+
+      <!-- 13 -->
+      <div class="product-box">
+
+        <img src=" https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/15303004/2021/8/30/31aec1d3-e979-4dbf-a530-673d277499021630312512820SpiritsNavyBlueSelfdesignNehruJacket1.jpg " alt="" >
+        <div class="flex pro-details">
+          <h2> Fabindia </h2>
+          <p class="pro-title"> Men Printed Nehru Jacket </p>
+          <p class="pro-price">Rs. 1299<del>Rs.1699</del><span>(75% OFF)</span></p>
+        </div>
+        <div class="rate flex">
+          <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+        </div>
+        <div class="buy-btn">
+          <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+        </div>
+
+
+      </div>
+
+      <!-- 14 -->
+      <div class="product-box">
+
+        <img src=" https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/22464348/2023/3/22/5ed86242-bb94-4f2b-a0c2-c5608dff25741679483048211KisahMenMultiNehruJacket1.jpg " alt="" >
+        <div class="flex pro-details">
+          <h2> Tabard </h2>
+          <p class="pro-title">  Men Printed Nehru Jacket</p>
+          <p class="pro-price">Rs. 1400 <del>Rs.1699</del><span>(75% OFF)</span></p>
+        </div>
+        <div class="rate flex">
+          <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+        </div>
+        <div class="buy-btn">
+          <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+        </div>
+
+
+      </div>
+
+      <!-- 15 -->
+      <div class="product-box">
+
+        <img src=" https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/18331172/2022/9/6/762b6b2c-4bc1-46ad-8ce5-1bf9e32388f91662463072214-Anouk-Men-Blue-Solid-Nehru-Jacket-9631662463071745-0.jpg " alt="" >
+        <div class="flex pro-details">
+          <h2> Vastramay </h2>
+          <p class="pro-title"> Men Solid Nehru Jacket </p>
+          <p class="pro-price">Rs. 1299 <del>Rs.1699</del><span>(75% OFF)</span></p>
+        </div>
+        <div class="rate flex">
+          <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+        </div>
+        <div class="buy-btn">
+          <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+        </div>
+      </div>
+      
+      <!-- 16 -->
+      <div class="product-box">
+
+        <img src=" https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/23623536/2023/6/13/b75d1256-2500-4fa7-bf56-baf9be0876161686676894208EmbroideredNehruJacket1.jpg " alt="" >
+        <div class="flex pro-details">
+          <h2> Hangup </h2>
+          <p class="pro-title"> Men Printed Nehru Jacket </p>
+          <p class="pro-price">Rs. 1224 <del>Rs.1699</del><span>(75% OFF)</span></p>
+        </div>
+        <div class="rate flex">
+          <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+        </div>
+        <div class="buy-btn">
+          <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+        </div>
+
+
+      </div>
+      <!-- 17 -->
+      <div class="product-box">
+
+        <img src="  https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2021/4/15/b66042fe-1fde-4ae0-8aab-70ef79c362921618495354181-1.jpg" alt="" >
+        <div class="flex pro-details">
+          <h2> Kisah </h2>
+          <p class="pro-title">  Woven Design Nehru Jackets</p>
+          <p class="pro-price">Rs. 1099<del>Rs.1699</del><span>(75% OFF)</span></p>
+        </div>
+        <div class="rate flex">
+          <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+        </div>
+        <div class="buy-btn">
+          <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+        </div>
+
+
+      </div>
+
+      <!-- 18 -->
+      <div class="product-box">
+
+        <img src=" https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/19942268/2022/9/14/9d333495-5c13-483b-b5fd-801d5a39aa241663150042848Waistcoat1.jpg " alt="" >
+        <div class="flex pro-details">
+          <h2> Jompers</h2>
+          <p class="pro-title">  Men Solid Nehru Jacket</p>
+          <p class="pro-price">Rs. 999 <del>Rs.1699</del><span>(75% OFF)</span></p>
+        </div>
+        <div class="rate flex">
+          <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+        </div>
+        <div class="buy-btn">
+          <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+        </div>
+      </div>
+
+      <!-- 18 -->
+      <div class="product-box">
+
+        <img src=" https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/21997380/2023/2/15/0a6e5cba-5a40-4a2c-bd5b-da8a3d61f8891676475995639Waistcoat1.jpg " alt="" >
+        <div class="flex pro-details">
+          <h2> Tabard </h2>
+          <p class="pro-title"> Men Printed Nehru Jacket </p>
+          <p class="pro-price">Rs. 1299 <del>Rs.1699</del><span>(75% OFF)</span></p>
+        </div>
+        <div class="rate flex">
+          <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+        </div>
+        <div class="buy-btn">
+          <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+        </div>
+      </div>
+
+      <!-- 18 -->
+      <div class="product-box">
+
+        <img src=" https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/11817202/2020/4/29/a07c4e3f-7ff5-4550-8b78-702ae8fbe50e1588139784447DEYANNMenBlueWovenDesignNehruJacket1.jpg " alt="" >
+        <div class="flex pro-details">
+          <h2> Kisah </h2>
+          <p class="pro-title"> Men Printed Nehru Jacket </p>
+          <p class="pro-price">Rs. 999 <del>Rs.1699</del><span>(75% OFF)</span></p>
+        </div>
+        <div class="rate flex">
+          <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+        </div>
+        <div class="buy-btn">
+          <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+
+  <!-- content End -->
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- footer -->
+  <div class="nfoot">
+    <div class="in-foot">
+
+      <div class="fn1">
+        <img src="Images/logo.png" width="140">
+        <p style="padding-block: 10px; text-align: left; ">Discover endless shopping possibilities with our
+          user-friendly website, competitive prices, secure payment options, fast shipping, and exceptional customer
+          support. Shop now!</p>
+        <a href="#" class="get-started-btn primary-button">Shop Now <i class="fa-solid fa-cart-shopping"></i>
+        </a>
+      </div>
+      <div class="fn2">
+        <h4 class="fhead">Contact</h4>
+        <p><strong>Office Address: </strong> A-15 Near LIC Office Shastri <br> Nagar, Jodhpur, RAJ</p>
+        <p><strong>Phone:</strong> 0291-27765 / (+91) 9253811711</p>
+        <p><strong>Hours:</strong> 10:00 - 18:00, Mon - Sat</p>
+        <div class="follow">
+          <h4 class="fhead">Follow Us</h4>
+          <div class="icons">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-pinterest-p"></i>
+            <i class="fab fa-youtube"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="fn3">
+        <h4 class="fhead">About</h4>
+        <a href="#">About Us</a>
+        <a href="#">Delivery Information</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms & Conditions</a>
+        <a href="#">Contact Us</a>
+      </div>
+
+      <div class="fn4">
+        <h4 class="fhead">Navigations</h4>
+        <a href="#">Home</a>
+        <a href="#">Shop</a>
+        <a href="#">Blog</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+
+        <p style="font-weight: bold;">Secured Payment Gateway</p>
+        <img src="Images/payment.png" class="pay">
+      </div>
+
+    </div>
+  </div>
+
+  <div class="team">
+    <div class="tname">
+      <p>© 2023 QuickBuy. All Rights Reserved.</p>
+      <p>Website Design and Developed By <span style="color: rgb(31, 55, 69);
+        font-weight: bold;">WEBTECH TITANS</span></p>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://kit.fontawesome.com/9a63dbdc63.js" crossorigin="anonymous"></script>
+  <div class="bell">
+    <div class="container bl">
+      <i class="fa-regular fa-bell"></i>
+    </div>
+  </div>
+</body>
+
+</html>

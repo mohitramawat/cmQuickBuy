@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-Commerce</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="all page filter page/mens.css" />
+  <link rel="stylesheet" href="all page filter page/allstyle.css">
+  <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="all page filter page/style.css">
+</head>
+
+<body>
+
+  <section id="header">
+    <div class="navigation">
+      <div style="display: flex; width: 693px; height: 60px;">
+        <a href="#"><img src="Images/logo.png" class="logo" width="125" style="margin-top: 4px;"></a>
+        <ul id="navbar">
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="About us/aboutus.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+
+          <div class="dropdown">
+            <li><a href="#">Studio <sup style="color: #e02a2d; font-size: 14px;">New</sup></a></li>
+
+            <div class="dropdown-content" style="width: 500px; min-height: 400px; top: 22px;;">
+
+              <div class="box1" style="text-align: center;">
+                <img src="Images/st.png" width="150px">
+                <p>Your daily inspiration for everything fashion</p>
+              </div>
+              <div class="box2">
+                <img src="Images/st1.png" alt="" width="100%" height="100%">
+              </div>
+              <div class="box3">
+                <button class="explore-btn">EXPLORE STUDIO > </button>
+              </div>
+
+            </div>
+          </div>
+        </ul>
+      </div>
+
+
+      <div style="display: flex;">
+
+        <!-- <div style="display: flex;"> -->
+        <i class="fa fa-search"></i>
+        <input type="text" class="header-input" placeholder="Search for products, brands and more">
+        <!-- </div> -->
+        <ul id="navbar" style="float: right;">
+          <div class="dropdown">
+            <li><a href="cart.html"><i class="fa fa-solid fa-user dropdown-btn"></i></a></li>
+            <div class="dropdown-content" style="width: 240px; position: absolute; left: -80px; top: 25px;">
+
+              <div class="div1">
+                <a href="" style="color: black; font-weight: 600;">Hello User</a>
+                <a href="">8107122911</a>
+              </div>
+              <div class="div2">
+                <a href="">Orders</a>
+                <a href="">Wishlist</a>
+                <a href="">Gift Cards</a>
+                <a href="">Contact Us</a>
+                <a href="">QuickBuy Insider <button class="new-btn">New</button></a>
+              </div>
+              <div class="div3">
+                <a href="">QuickBuy Credit</a>
+                <a href="">Coupons</a>
+                <a href="">Saved Cards</a>
+                <a href="">Saved VPA</a>
+                <a href="">Saved Addresses</a>
+              </div>
+              <div class="div4">
+                <a href="">Edit Profile</a>
+                <a href="">Logout</a>
+              </div>
+            </div>
+          </div>
+          <li><a href="cart/cart.html"><i class="fa fa-bag-shopping"></i></a></li>
+          <li><a href="wishlist2/wish.html"><i class="fa-solid fa-heart"></i></a></li>
+
+        </ul>
+      </div>
+    </div>
+  </section>
+  <section id="header2">
+
+    <div class="navbar2">
+      <div class="navbar2img"><a href="fashion.html"><img src="Images/h2.jpg"><br><a href="#"
+            style="padding-left: 20px;">Fashion</a></div>
+      <div class="navbar2img"><a href="Mobile/mobile.html"><img src="Images/h4.jpg"><br><a href="#"
+            style="padding-left: 20px;">Mobiles</a></div>
+      <div class="navbar2img"><a href="electronics.html"><img src="Images/h6.jpg"><br><a href="#"
+            style="padding-left: 10px;">Electronics</a></div>
+      <div class="navbar2img"><a href="beauty.html"><img src="Images/h5.png"><br><a href="#"
+            style="padding-left: 22px;">Beauty</a></div>
+      <div class="navbar2img"><a href="furniture/furniture.html"><img src="Images/h3.jpg"><br><a href="#"
+            style="padding-left: 20px;">Furniture</a></div>
+    </div>
+
+  </section>
+  <!-- hedaer end -->
+
+  <!-- content start -->
+
+
+
+  <div class="product-name">
+    <div>
+      <p>Electronics- <span>17885 items</span></p>
+    </div>
+  </div>
+  <div id="wrapper">
+    <div id="filter">
+      <div class="a">
+        <h3>FILTERS </h3>
+        <div>
+          <input type="radio" id="sagar" name="group">
+          <label for="sagar">Headphones</label><br>
+          <input type="radio" id="rb" name="group">
+          <label for="rb">Earphones</label><br>
+          <input type="radio" id="rb" name="group">
+          <label for="rb">Speakers</label><br>
+          <input type="radio" id="rb" name="group">
+          <label for="rb">Storage Devices</label><br>
+        </div>
+
+      </div>
+
+      <div class="b">
+        <h3>BRAND</h3>
+        <div>
+          <input type="checkbox" id="cb" name="group">
+          <label for="cb">Boat</label><br>
+          <input type="checkbox" id="cb" name="group">
+          <label for="cb">Zebronics</label><br>
+          <input type="checkbox" id="cb" name="group">
+          <label for="cb">Potronics</label><br>
+          <input type="checkbox" id="cb" name="group">
+          <label for="cb">SanDisk</label><br>
+          <input type="checkbox" id="cb" name="group">
+          <label for="cb">JBL</label><br>
+        </div>
+
+      </div>
+      <div class="b">
+        <h3>PRICE</h3>
+        <div>
+          <input type="checkbox" id="cb" name="group">
+          <label for="cb">Rs 499 to Rs 1349</label><br>
+          <input type="checkbox" id="cb" name="group">
+          <label for="cb">Rs. 1349 to Rs. 2199</label><br>
+          <input type="checkbox" id="cb" name="group">
+          <label for="cb">Rs. 2199 to Rs. 3049</label><br>
+          <input type="checkbox" id="cb" name="group">
+          <label for="cb">Rs. 3049 to Rs. 3899</label><br>
+        </div>
+
+      </div>
+      <div class="b">
+        <h3>COLOR</h3>
+        <div>
+          <input type="checkbox" id="cb" name="group">
+          <label for="cb">Blue</label><br>
+          <input type="checkbox" id="cb" name="group">
+          <label for="cb">Navy Blue</label><br>
+          <input type="checkbox" id="cb" name="group">
+          <label for="cb">Black</label><br>
+          <input type="checkbox" id="cb" name="group">
+          <label for="cb">White</label><br>
+          <input type="checkbox" id="cb" name="group">
+          <label for="cb">Grey</label><br>
+          <input type="checkbox" id="cb" name="group">
+          <label for="cb">Red</label><br>
+          <input type="checkbox" id="cb" name="group">
+          <label for="cb">Green</label><br>
+        </div>
+
+      </div>
+      <div class="c">
+        <h3>DISCOUNT RANGE</h3>
+        <div>
+          <input type="radio" id="rb" name="group">
+          <label for="rb">10% and above</label><br>
+          <input type="radio" id="rb" name="group">
+          <label for="rb">20% and above</label><br>
+          <input type="radio" id="rb" name="group">
+          <label for="rb">30% and aboves</label><br>
+          <input type="radio" id="rb" name="group">
+          <label for="rb">40% and above</label><br>
+          <input type="radio" id="rb" name="group">
+          <label for="rb">50% and above</label><br>
+          <input type="radio" id="rb" name="group">
+          <label for="rb">60% and above</label><br>
+
+
+        </div>
+
+      </div>
+    </div>
+    <!-- product -->
+
+    <div class="product">
+
+      <!-- 1 -->
+      <div class="product-box">
+
+        <img src="https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/19597724/2022/9/16/9798bf0b-dfa3-4bef-966d-ec2d7a39cd5b1663321896091-boAt-Airdopes-Black-163-M-with-ASAP-Charge-In-the-Ear-Blueto-1.jpg " alt="">        
+        <div class="flex pro-details">
+          <h2> Boat</h2>
+          <p class="pro-title"> Wireless Earphones </p>
+          <p class="pro-price">Rs. 2199 <del>Rs.3200</del><span>(75% OFF)</span></p>
+        </div>
+        <div class="rate flex">
+          <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+        </div>
+        <div class="buy-btn">
+          <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+        </div>
+
+
+      </div>
+      <!-- 2 -->
+      <div class="product-box">
+
+        <img src="https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/18196756/2022/5/16/f0672ea9-75e0-496f-9e35-b771315d8d481652684904672-WINGS-Unisex-Speakers-251652684904221-1.jpg " alt="" >
+        <div class="flex pro-details">
+          <h2> Zebronics</h2>
+          <p class="pro-title">  Bluetooth  Soundbar </p>
+          <p class="pro-price">Rs. 1800 <del>Rs.4999</del><span>(65% OFF)</span></p>
+        </div>
+        <div class="rate flex">
+          <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+        </div>
+        <div class="buy-btn">
+          <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+        </div>
+
+
+      </div>
+
+      <!-- 3 -->
+      <div class="product-box">
+
+        <img src=" https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/19597820/2022/8/25/9ad5c076-e9d0-4fe4-9f10-161695addf391661422698481-boAt-Rockerz-235-Pro-M-with-ASAP-Charge-Bluetooth-Headset----1.jpg" alt="" >
+        <div class="flex pro-details">
+          <h2> Boat </h2>
+          <p class="pro-title">  Neckband </p>
+          <p class="pro-price">Rs. 2299 <del>Rs.3699</del><span>(75% OFF)</span></p>
+        </div>
+        <div class="rate flex">
+          <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+        </div>
+        <div class="buy-btn">
+          <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+        </div>
+
+
+      </div>
+
+      <!-- 4 -->
+      <div class="product-box">
+
+        <img src=" https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/20522216/2022/11/23/5368d1a6-dcc0-461a-a34d-67870ef9c02d1669189030439-Nothing-Ear-Stick-True-Wireless-Earphones-3321669189029811-1.jpg " alt="" >
+        <div class="flex pro-details">
+          <h2>Nothing  </h2>
+          <p class="pro-title"> Earbuds </p>
+          <p class="pro-price">Rs. 1999 <del>Rs.2299</del><span>(75% OFF)</span></p>
+        </div>
+        <div class="rate flex">
+          <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+        </div>
+        <div class="buy-btn">
+          <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+        </div>
+
+
+      </div>
+
+      <!-- 5 -->
+      <div class="product-box">
+
+        <img src="  https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/19102322/2022/7/15/5c574f98-776b-4a56-8b58-d3d642ca66a21657863908215-boAt-Stone-1000v2-M-14W-Bluetooth-Speaker-with-boAt-Signatur-1.jpg" alt="" >
+        <div class="flex pro-details">
+          <h2>  Boat </h2>
+          <p class="pro-title">  Bluetooth Speaker</p>
+          <p class="pro-price">Rs. 1199 <del>Rs.1699</del><span>(75% OFF)</span></p>
+        </div>
+        <div class="rate flex">
+          <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+        </div>
+        <div class="buy-btn">
+          <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+        </div>
+      </div>
+
+      
+      <!-- 6-->
+      <div class="product-box">
+
+        <img src=" https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/19597738/2023/2/8/592e5231-96eb-43c3-8dd4-358ec85da3131675833513504-boAt-Airdopes-163-M-with-ASAP-Charge-In-the-Ear-Bluetooth-He-1.jpg " alt="" >
+        <div class="flex pro-details">
+          <h2>Boat</h2>
+          <p class="pro-title"> Earbuds </p>
+          <p class="pro-price">Rs. 1299 <del>Rs.4699</del><span>(75% OFF)</span></p>
+        </div>
+        <div class="rate flex">
+          <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+        </div>
+        <div class="buy-btn">
+          <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+        </div>
+
+
+      </div>
+      <!-- 7 -->
+      <div class="product-box">
+
+        <img src=" https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/19069154/2022/7/12/7026e80d-2356-4386-9c0a-78b9a9e065691657622969764PortronicsWhiteBlueSolidConch110inEarWiredEarphones1.jpg " alt="" >
+        <div class="flex pro-details">
+          <h2> Potronics </h2>
+          <p class="pro-title">Wired Earphone</p>
+          <p class="pro-price">Rs. 2099 <del>Rs.2699</del><span>(75% OFF)</span></p>
+        </div>
+        <div class="rate flex">
+          <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+        </div>
+        <div class="buy-btn">
+          <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+        </div>
+
+
+      </div>
+
+      <!-- 8 -->
+      <div class="product-box">
+
+        <img src=" https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/16414310/2021/12/7/8f8d7a05-132a-42bb-a730-3695a1e9c5291638886292380HammerBashOvertheEarWirelessBluetoothHeadphoneswithMicGrey1.jpg " alt="" >
+        <div class="flex pro-details">
+          <h2>  Hammer </h2>
+          <p class="pro-title">Headphone  </p>
+          <p class="pro-price">Rs. 1200 <del>Rs.1699</del><span>(75% OFF)</span></p>
+        </div>
+        <div class="rate flex">
+          <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+        </div>
+        <div class="buy-btn">
+          <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+        </div>
+
+
+      </div>
+
+      <!-- 9 -->
+      <div class="product-box">
+
+        <img src=" https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/10695288/2019/11/13/76608543-1fd4-4294-9729-3f2d11a7690a1573638542930-Saregama-Emerald-Green-Carvaan-20-Mini-Portable-Music-Player-1.jpg " alt="" >
+        <div class="flex pro-details">
+          <h2> Carvan</h2>
+          <p class="pro-title"> Speaker </p>
+          <p class="pro-price">Rs. 1399 <del>Rs.1699</del><span>(75% OFF)</span></p>
+        </div>
+        <div class="rate flex">
+          <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+        </div>
+        <div class="buy-btn">
+          <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+        </div>
+
+
+      </div>
+
+      <!-- 10 -->
+      <div class="product-box">
+
+        <img src="  https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/15611044/2022/1/5/f0225526-2774-4b0c-ae5f-3a67c38ee3261641360655658-NOISE-Green-Solid-Nerve-Bluetooth-Wireless-Neckband-Earphone-1.jpg" alt="" >
+        <div class="flex pro-details">
+          <h2> Boat </h2>
+          <p class="pro-title">Neckband  </p>
+          <p class="pro-price">Rs. 1099 <del>Rs.1699</del><span>(75% OFF)</span></p>
+        </div>
+        <div class="rate flex">
+          <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+        </div>
+        <div class="buy-btn">
+          <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+        </div>
+      </div>
+
+      
+      <!-- 11 -->
+      <div class="product-box">
+
+        <img src=" https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/15484432/2021/9/21/ccddbedc-1ff2-4378-9789-ed129560db251632211239810-realme-Black-Buds-Wireless-2-Neo-Bluetooth-Headphones-651632-1.jpg " alt="" >
+        <div class="flex pro-details">
+          <h2> Zebronics </h2>
+          <p class="pro-title"> Neckband </p>
+          <p class="pro-price">Rs. 1990 <del>Rs.1699</del><span>(75% OFF)</span></p>
+        </div>
+        <div class="rate flex">
+          <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+        </div>
+        <div class="buy-btn">
+          <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+        </div>
+
+
+      </div>
+      <!-- 12 -->
+      <div class="product-box">
+
+        <img src=" https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/20415012/2022/11/23/d6896930-4f38-48d4-a6c8-424f6b6006a41669204316059-Fitbit-Inspire-3-Health--Fitness-Tracker-with-Stress-Mgt--BT-1.jpg " alt="">
+        <div class="flex pro-details">
+          <h2> Noise </h2>
+          <p class="pro-title"> Fitness Band </p>
+          <p class="pro-price">Rs. 1300 <del>Rs.1699</del><span>(75% OFF)</span></p>
+        </div>
+        <div class="rate flex">
+          <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+        </div>
+        <div class="buy-btn">
+          <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+        </div>
+
+
+      </div>
+
+      <!-- 13 -->
+      <div class="product-box">
+
+        <img src=" https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/16759332/2022/1/11/8c12d9d3-8b2d-457a-9b96-3f6cc9fff1b91641893169468Speakers2.jpg " alt="" >
+        <div class="flex pro-details">
+          <h2> JBL </h2>
+          <p class="pro-title"> Soundbar </p>
+          <p class="pro-price">Rs. 1299<del>Rs.1699</del><span>(75% OFF)</span></p>
+        </div>
+        <div class="rate flex">
+          <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+        </div>
+        <div class="buy-btn">
+          <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+        </div>
+
+
+      </div>
+
+      <!-- 14 -->
+      <div class="product-box">
+
+        <img src=" https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/19597724/2022/9/16/9798bf0b-dfa3-4bef-966d-ec2d7a39cd5b1663321896091-boAt-Airdopes-Black-163-M-with-ASAP-Charge-In-the-Ear-Blueto-1.jpg" alt="" >
+        <div class="flex pro-details">
+          <h2> Boat </h2>
+          <p class="pro-title"> Wireless Earphones </p>
+          <p class="pro-price">Rs. 1400 <del>Rs.1699</del><span>(75% OFF)</span></p>
+        </div>
+        <div class="rate flex">
+          <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+        </div>
+        <div class="buy-btn">
+          <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+        </div>
+
+
+      </div>
+
+      <!-- 15 -->
+      <div class="product-box">
+
+        <img src=" https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/7501743/2018/11/28/4dfa873c-42b5-4785-bcda-f37960c7e89f1543408103484-Saregama-Black-Caravan-Mini-Portable-Music-Player-MR0004-793-1.jpg " alt="" >
+        <div class="flex pro-details">
+          <h2> Carvan </h2>
+          <p class="pro-title"> Speaker </p>
+          <p class="pro-price">Rs. 2299 <del>Rs.4699</del><span>(75% OFF)</span></p>
+        </div>
+        <div class="rate flex">
+          <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+        </div>
+        <div class="buy-btn">
+          <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+        </div>
+      </div>
+      
+      <!-- 16 -->
+      <div class="product-box">
+
+        <img src=" https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/11888866/2020/7/29/706da00b-c366-4b87-804c-d559864d366c1596011245190-boAt-Stone-190-5W-Black-Portable-Wireless-Speaker-with-IPX7--1.jpg " alt="" >
+        <div class="flex pro-details">
+          <h2> Hammer </h2>
+          <p class="pro-title"> Bluetooth Speaker </p>
+          <p class="pro-price">Rs. 1424 <del>Rs.1699</del><span>(75% OFF)</span></p>
+        </div>
+        <div class="rate flex">
+          <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+        </div>
+        <div class="buy-btn">
+          <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+        </div>
+
+
+      </div>
+      <!-- 17 -->
+      <div class="product-box">
+
+        <img src=" https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/19219056/2022/8/8/ea031aa3-de8c-4349-965d-9099c99631861659956044264-BLAUPUNKT-Unisex-Headphones-1581659956043824-1.jpg " alt="" >
+        <div class="flex pro-details">
+          <h2> Hammer </h2>
+          <p class="pro-title"> Headphone </p>
+          <p class="pro-price">Rs. 1424 <del>Rs.1699</del><span>(75% OFF)</span></p>
+        </div>
+        <div class="rate flex">
+          <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+        </div>
+        <div class="buy-btn">
+          <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+        </div>
+
+
+      </div>
+
+      <!-- 18 -->
+      <div class="product-box">
+
+        <img src=" https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/20000442/2022/9/16/5d5c85de-a7fa-4352-9581-ce7cafc867a61663321840044SWAGMEDhunNB008Indias1stChangeableDualBatteryNeckband1.jpg " alt="" >
+        <div class="flex pro-details">
+          <h2> Boat</h2>
+          <p class="pro-title"> Neckband </p>
+          <p class="pro-price">Rs. 1599 <del>Rs.1699</del><span>(75% OFF)</span></p>
+        </div>
+        <div class="rate flex">
+          <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+        </div>
+        <div class="buy-btn">
+          <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+        </div>
+      </div>
+
+      <!-- 18 -->
+      <div class="product-box">
+
+        <img src="https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/23126712/2023/5/26/65d74dfc-e76f-44dd-bd88-ce9e0c6e00411685088140678-boAt-Airdopes-100-True-Wireless-Earbuds-with-50-Hours-Playba-1.jpg  " alt="" >
+        <div class="flex pro-details">
+          <h2> Boat </h2>
+          <p class="pro-title"> Earbuds </p>
+          <p class="pro-price">Rs. 1224 <del>Rs.1699</del><span>(75% OFF)</span></p>
+        </div>
+        <div class="rate flex">
+          <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+        </div>
+        <div class="buy-btn">
+          <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+        </div>
+      </div>
+
+      <!-- 18 -->
+      <div class="product-box">
+
+        <img src=" https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/18042104/2022/6/4/f4eb4074-10d8-41f2-acd1-3e37507cd3cd1654329170309-truke-Blue-FIT-1--Wireless-Earphone-7081654329169827-1.jpg " alt="" >
+        <div class="flex pro-details">
+          <h2> Boat </h2>
+          <p class="pro-title"> Earbuds </p>
+          <p class="pro-price">Rs. 1424 <del>Rs.1699</del><span>(75% OFF)</span></p>
+        </div>
+        <div class="rate flex">
+          <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+        </div>
+        <div class="buy-btn">
+          <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+
+  <!-- content End -->
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- footer -->
+  <div class="nfoot">
+    <div class="in-foot">
+
+      <div class="fn1">
+        <img src="Images/logo.png" width="140">
+        <p style="padding-block: 10px; text-align: left; ">Discover endless shopping possibilities with our
+          user-friendly website, competitive prices, secure payment options, fast shipping, and exceptional customer
+          support. Shop now!</p>
+        <a href="#" class="get-started-btn primary-button">Shop Now <i class="fa-solid fa-cart-shopping"></i>
+        </a>
+      </div>
+      <div class="fn2">
+        <h4 class="fhead">Contact</h4>
+        <p><strong>Office Address: </strong> A-15 Near LIC Office Shastri <br> Nagar, Jodhpur, RAJ</p>
+        <p><strong>Phone:</strong> 0291-27765 / (+91) 9253811711</p>
+        <p><strong>Hours:</strong> 10:00 - 18:00, Mon - Sat</p>
+        <div class="follow">
+          <h4 class="fhead">Follow Us</h4>
+          <div class="icons">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-pinterest-p"></i>
+            <i class="fab fa-youtube"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="fn3">
+        <h4 class="fhead">About</h4>
+        <a href="#">About Us</a>
+        <a href="#">Delivery Information</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms & Conditions</a>
+        <a href="#">Contact Us</a>
+      </div>
+
+      <div class="fn4">
+        <h4 class="fhead">Navigations</h4>
+        <a href="#">Home</a>
+        <a href="#">Shop</a>
+        <a href="#">Blog</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+
+        <p style="font-weight: bold;">Secured Payment Gateway</p>
+        <img src="Images/payment.png" class="pay">
+      </div>
+
+    </div>
+  </div>
+
+  <div class="team">
+    <div class="tname">
+      <p>© 2023 QuickBuy. All Rights Reserved.</p>
+      <p>Website Design and Developed By <span style="color: rgb(31, 55, 69);
+        font-weight: bold;">WEBTECH TITANS</span></p>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://kit.fontawesome.com/9a63dbdc63.js" crossorigin="anonymous"></script>
+  <div class="bell">
+    <div class=" bl">
+      <i class="fa-regular fa-bell"></i>
+    </div>
+  </div>
+</body>
+
+</html>

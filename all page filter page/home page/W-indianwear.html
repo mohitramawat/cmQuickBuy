@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-Commerce</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="../mens.css" />
+  <link rel="stylesheet" href="../style.css">
+  <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="../allstyle.css">
+</head>
+
+<body>
+
+  <section id="header">
+    <div class="navigation">
+      <div style="display: flex; width: 693px; height: 60px;">
+        <a href="#"><img src="Images/logo.png" class="logo" width="125" style="margin-top: 4px;"></a>
+        <ul id="navbar">
+          <li><a href="../../index.html" class="active">Home</a></li>
+          <li><a href="../../shop.html">Shop</a></li>
+          <li><a href="../../About us/aboutus.html">About</a></li>
+          <li><a href="../../contact.html">Contact</a></li>
+
+          <div class="dropdown">
+            <li><a href="#">Studio <sup style="color: #e02a2d; font-size: 14px;">New</sup></a></li>
+
+            <div class="dropdown-content" style="width: 500px; min-height: 400px; top: 22px;;">
+
+              <div class="box1" style="text-align: center;">
+                <img src="Images/st.png" width="150px">
+                <p>Your daily inspiration for everything fashion</p>
+              </div>
+              <div class="box2">
+                <img src="Images/st1.png" alt="" width="100%" height="100%">
+              </div>
+              <div class="box3">
+                <button class="explore-btn">EXPLORE STUDIO > </button>
+              </div>
+
+            </div>
+          </div>
+        </ul>
+      </div>
+
+
+      <div style="display: flex;">
+
+        <!-- <div style="display: flex;"> -->
+        <i class="fa fa-search"></i>
+        <input type="text" class="header-input" placeholder="Search for products, brands and more">
+        <!-- </div> -->
+        <ul id="navbar" style="float: right;">
+          <div class="dropdown">
+            <li><a href="../../cart.html"><i class="fa fa-solid fa-user dropdown-btn"></i></a></li>
+            <div class="dropdown-content" style="width: 240px; position: absolute; left: -80px; top: 25px;">
+
+              <div class="div1">
+                <a href="" style="color: black; font-weight: 600;">Hello User</a>
+                <a href="">8107122911</a>
+              </div>
+              <div class="div2">
+                <a href="">Orders</a>
+                <a href="">Wishlist</a>
+                <a href="">Gift Cards</a>
+                <a href="">Contact Us</a>
+                <a href="">QuickBuy Insider <button class="new-btn">New</button></a>
+              </div>
+              <div class="div3">
+                <a href="">QuickBuy Credit</a>
+                <a href="">Coupons</a>
+                <a href="">Saved Cards</a>
+                <a href="">Saved VPA</a>
+                <a href="">Saved Addresses</a>
+              </div>
+              <div class="div4">
+                <a href="">Edit Profile</a>
+                <a href="">Logout</a>
+              </div>
+            </div>
+          </div>
+          <li><a href="../../cart/index.html"><i class="fa fa-bag-shopping"></i></a></li>
+          <li><a href="../../wishlist2/wish.html"><i class="fa-solid fa-heart"></i></a></li>
+
+        </ul>
+      </div>
+    </div>
+  </section>
+  <section id="header2">
+
+    <div class="navbar2">
+      <div class="navbar2img"><a href="../../fashion.html"><img src="Images/h2.jpg"><br><a href="#"
+            style="padding-left: 20px;">Fashion</a></div>
+      <div class="navbar2img"><a href="#"><img src="Images/h4.jpg"><br><a href="#"
+            style="padding-left: 20px;">Mobiles</a></div>
+      <div class="navbar2img"><a href="#"><img src="Images/h6.jpg"><br><a href="#"
+            style="padding-left: 10px;">Electronics</a></div>
+      <div class="navbar2img"><a href="#"><img src="Images/h5.png"><br><a href="#"
+            style="padding-left: 22px;">Beauty</a></div>
+      <div class="navbar2img"><a href="#"><img src="Images/h3.jpg"><br><a href="#"
+            style="padding-left: 20px;">Furniture</a></div>
+    </div>
+
+  </section>
+  <!-- hedaer end -->
+
+  <!-- content start -->
+
+
+
+  <div class="product-name">
+    <div>
+      <p>Watches- <span>17885 items</span></p>
+    </div>
+  </div>
+  <div id="wrapper">
+    <div id="filter">
+      <div class="a">
+        <h3>FILTERS </h3>
+        <div>
+          <input type="radio" id="sagar" name="group">
+          <label for="sagar">Sarees</label><br>
+          <input type="radio" id="rb" name="group">
+          <label for="rb">Ethnic Dresses</label><br>
+          <input type="radio" id="rb" name="group">
+          <label for="rb">Kurtas</label><br>
+          <input type="radio" id="rb" name="group">
+          <label for="rb">Lehenga Choli</label><br>
+          <input type="radio" id="rb" name="group">
+          <label for="rb">Kurta Sets</label><br>
+        </div>
+
+      </div>
+
+      <div class="b">
+        <h3>BRAND</h3>
+        <div>
+          <input type="checkbox" id="cb" name="group">
+          <label for="cb">Mitera</label><br>
+          <input type="checkbox" id="cb" name="group">
+          <label for="cb">Kalini</label><br>
+          <input type="checkbox" id="cb" name="group">
+          <label for="cb">Anouk</label><br>
+          <input type="checkbox" id="cb" name="group">
+          <label for="cb">Unnati Silks</label><br>
+          <input type="checkbox" id="cb" name="group">
+          <label for="cb">Shaily</label><br>
+          <input type="checkbox" id="cb" name="group">
+          <label for="cb">The Chennai Silks</label><br>
+          <input type="checkbox" id="cb" name="group">
+          <label for="cb">Saree Mall</label><br>
+          <input type="checkbox" id="cb" name="group">
+          <label for="cb">Sangria</label>
+        </div>
+
+      </div>
+      <div class="b">
+        <h3>PRICE</h3>
+        <div>
+          <input type="checkbox" id="cb" name="group">
+          <label for="cb">Rs 499 to Rs 1349</label><br>
+          <input type="checkbox" id="cb" name="group">
+          <label for="cb">Rs. 1349 to Rs. 2199</label><br>
+          <input type="checkbox" id="cb" name="group">
+          <label for="cb">Rs. 2199 to Rs. 3049</label><br>
+          <input type="checkbox" id="cb" name="group">
+          <label for="cb">Rs. 3049 to Rs. 3899</label><br>
+        </div>
+
+      </div>
+      <div class="b">
+        <h3>COLOR</h3>
+        <div>
+          <input type="checkbox" id="cb" name="group">
+          <label for="cb">Blue</label><br>
+          <input type="checkbox" id="cb" name="group">
+          <label for="cb">Navy Blue</label><br>
+          <input type="checkbox" id="cb" name="group">
+          <label for="cb">Black</label><br>
+          <input type="checkbox" id="cb" name="group">
+          <label for="cb">White</label><br>
+          <input type="checkbox" id="cb" name="group">
+          <label for="cb">Grey</label><br>
+          <input type="checkbox" id="cb" name="group">
+          <label for="cb">Red</label><br>
+          <input type="checkbox" id="cb" name="group">
+          <label for="cb">Green</label><br>
+        </div>
+
+      </div>
+      <div class="c">
+        <h3>DISCOUNT RANGE</h3>
+        <div>
+          <input type="radio" id="rb" name="group">
+          <label for="rb">10% and above</label><br>
+          <input type="radio" id="rb" name="group">
+          <label for="rb">20% and above</label><br>
+          <input type="radio" id="rb" name="group">
+          <label for="rb">30% and aboves</label><br>
+          <input type="radio" id="rb" name="group">
+          <label for="rb">40% and above</label><br>
+          <input type="radio" id="rb" name="group">
+          <label for="rb">50% and above</label><br>
+          <input type="radio" id="rb" name="group">
+          <label for="rb">60% and above</label><br>
+
+
+        </div>
+
+      </div>
+    </div>
+    <!-- product -->
+
+    <div class="product">
+
+      <!-- 1 -->
+      <div class="product-box">
+
+        <img src="https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/21209326/2023/1/11/ef0dbde1-af80-4465-8b7b-6025cdb867c41673437032164-kasee-Embellished-Beads-and-Stones-Saree-8081673437031391-1.jpg" alt="">        
+        <div class="flex pro-details">
+          <h2>Sangria</h2>
+          <p class="pro-title">Woven Design Banarasi Saree</p>
+          <p class="pro-price">Rs. 2199 <del>Rs.3200</del><span>(75% OFF)</span></p>
+        </div>
+        <div class="rate flex">
+          <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+        </div>
+        <div class="buy-btn">
+          <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+        </div>
+
+
+      </div>
+      <!-- 2 -->
+      <div class="product-box">
+
+        <img src="https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/18302804/2023/3/29/cb7e21f1-4a43-4955-ab5a-b5a72af834f31680084902995-Mitera-Cream-Coloured--Red-Floral-Silk-Blend-Saree-916800849-1.jpg" alt="" >
+        <div class="flex pro-details">
+          <h2>Shaily</h2>
+          <p class="pro-title">Floral Satin Saree</p>
+          <p class="pro-price">Rs. 3800 <del>Rs.4999</del><span>(65% OFF)</span></p>
+        </div>
+        <div class="rate flex">
+          <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+        </div>
+        <div class="buy-btn">
+          <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+        </div>
+
+
+      </div>
+
+      <!-- 3 -->
+      <div class="product-box">
+
+        <img src="https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/12133332/2020/7/29/37e7ca57-71b2-44eb-a1bd-70f2a4d7c7521596018924513KSUTfuchsiaabstractprintedflaredfulllengthplacketkurtawithro1.jpg" alt="" >
+        <div class="flex pro-details">
+          <h2>Anouk</h2>
+          <p class="pro-title">Ready to Wear Saree</p>
+          <p class="pro-price">Rs. 2299 <del>Rs.3699</del><span>(75% OFF)</span></p>
+        </div>
+        <div class="rate flex">
+          <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+        </div>
+        <div class="buy-btn">
+          <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+        </div>
+
+
+      </div>
+
+      <!-- 4 -->
+      <div class="product-box">
+
+        <img src="https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/21932486/2023/2/11/efc62a95-d638-48c6-8125-1dc1390b63441676082604812SatraniWomenCoralPinkSilkBlendJacquardSaree1.jpg" alt="" >
+        <div class="flex pro-details">
+          <h2>Mitera</h2>
+          <p class="pro-title">Floral Satin Saree</p>
+          <p class="pro-price">Rs. 1999 <del>Rs.2299</del><span>(75% OFF)</span></p>
+        </div>
+        <div class="rate flex">
+          <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+        </div>
+        <div class="buy-btn">
+          <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+        </div>
+
+
+      </div>
+
+      <!-- 5 -->
+      <div class="product-box">
+
+        <img src="https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/11549616/2020/3/4/ffec673a-f715-432a-94ef-00c8199ed22d1583302082090-Women-White-Ethnic-Motifs-Printed-Mandarin-Collar-Cotton-Fit-1.jpg" alt="" >
+        <div class="flex pro-details">
+          <h2>Kalini</h2>
+          <p class="pro-title">Printed Maxi Dress</p>
+          <p class="pro-price">Rs. 1199 <del>Rs.1699</del><span>(75% OFF)</span></p>
+        </div>
+        <div class="rate flex">
+          <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+        </div>
+        <div class="buy-btn">
+          <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+        </div>
+      </div>
+
+      
+      <!-- 6-->
+      <div class="product-box">
+
+        <img src="https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/19691570/2022/9/15/a2c635d9-cafe-4f61-8a6a-7f6b7b499cdc1663245889571DressesDIVYANKWomenDressesDIVYANKWomenLoungeShortsLeadingLad1.jpg" alt="" >
+        <div class="flex pro-details">
+          <h2>Shaily</h2>
+          <p class="pro-title">Printed Maxi Dress</p>
+          <p class="pro-price">Rs. 3299 <del>Rs.4699</del><span>(75% OFF)</span></p>
+        </div>
+        <div class="rate flex">
+          <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+        </div>
+        <div class="buy-btn">
+          <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+        </div>
+
+
+      </div>
+      <!-- 7 -->
+      <div class="product-box">
+
+        <img src="https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/19411938/2022/8/17/d5f17264-b4a0-4d4b-8392-5325df9b9c601660735051287-Ahalyaa-Women-Dresses-1111660735050677-1.jpg" alt="" >
+        <div class="flex pro-details">
+          <h2>Sangria</h2>
+          <p class="pro-title">Maxi Made To Measure Dress</p>
+          <p class="pro-price">Rs. 2099 <del>Rs.2699</del><span>(75% OFF)</span></p>
+        </div>
+        <div class="rate flex">
+          <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+        </div>
+        <div class="buy-btn">
+          <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+        </div>
+
+
+      </div>
+
+      <!-- 8 -->
+      <div class="product-box">
+
+        <img src="https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/18688524/2022/6/9/b7a94ea2-1461-4f98-b8f4-002ebd4288ca1654790915625Dresses1.jpg" alt="" >
+        <div class="flex pro-details">
+          <h2>Saree Mall</h2>
+          <p class="pro-title">Ready to Wear Saree</p>
+          <p class="pro-price">Rs. 1200 <del>Rs.1699</del><span>(75% OFF)</span></p>
+        </div>
+        <div class="rate flex">
+          <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+        </div>
+        <div class="buy-btn">
+          <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+        </div>
+
+
+      </div>
+
+      <!-- 9 -->
+      <div class="product-box">
+
+        <img src="https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/8662559/2019/10/1/da580819-f252-446c-a103-3a6e8815c9f91569924875019-Vishudh-Women-Grey-Printed-Fit-and-Flare-Dress-4511569924872-1.jpg" alt="" >
+        <div class="flex pro-details">
+          <h2>Anouk</h2>
+          <p class="pro-title">Ready to Wear Saree</p>
+          <p class="pro-price">Rs. 1399 <del>Rs.1699</del><span>(75% OFF)</span></p>
+        </div>
+        <div class="rate flex">
+          <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+        </div>
+        <div class="buy-btn">
+          <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+        </div>
+
+
+      </div>
+
+      <!-- 10 -->
+      <div class="product-box">
+
+        <img src="https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/14914166/2021/8/24/19e49676-2dd4-4273-89d9-4ac9083e4d691629785952899-Libas-Women-Lehenga-Choli-8081629785952553-1.jpg" alt="" >
+        <div class="flex pro-details">
+          <h2>Mitera</h2>
+          <p class="pro-title">Printed Maxi Dress</p>
+          <p class="pro-price">Rs. 1099 <del>Rs.1699</del><span>(75% OFF)</span></p>
+        </div>
+        <div class="rate flex">
+          <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+        </div>
+        <div class="buy-btn">
+          <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+        </div>
+      </div>
+
+      
+      <!-- 11 -->
+      <div class="product-box">
+
+        <img src="https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/16846726/2022/2/3/d81c0838-9a5f-45a4-a93f-4163e6f9548c1643867893380SatinEmbroideryWorkSaree1.jpg" alt="" >
+        <div class="flex pro-details">
+          <h2>Anouk</h2>
+          <p class="pro-title">Ready to Wear Saree</p>
+          <p class="pro-price">Rs. 1990 <del>Rs.1699</del><span>(75% OFF)</span></p>
+        </div>
+        <div class="rate flex">
+          <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+        </div>
+        <div class="buy-btn">
+          <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+        </div>
+
+
+      </div>
+      <!-- 12 -->
+      <div class="product-box">
+
+        <img src="https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/14224886/2021/8/4/32fba6a6-e177-4825-8314-079159b5372f1628056487310-Inddus-Women-Mauve-Embellished-Gown-3501628056486570-1.jpg" alt="">
+        <div class="flex pro-details">
+          <h2>Mitera</h2>
+          <p class="pro-title">MPrinted Maxi Dress</p>
+          <p class="pro-price">Rs. 1300 <del>Rs.1699</del><span>(75% OFF)</span></p>
+        </div>
+        <div class="rate flex">
+          <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+        </div>
+        <div class="buy-btn">
+          <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+        </div>
+
+
+      </div>
+
+      <!-- 13 -->
+      <div class="product-box">
+
+        <img src="https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/23170124/2023/5/13/b6cb5610-4074-4ff9-86aa-91783fd2bad01683973062742Sarees1.jpg" alt="" >
+        <div class="flex pro-details">
+          <h2>Sangria</h2>
+          <p class="pro-title">Pure Georgette Saree</p>
+          <p class="pro-price">Rs. 1299<del>Rs.1699</del><span>(75% OFF)</span></p>
+        </div>
+        <div class="rate flex">
+          <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+        </div>
+        <div class="buy-btn">
+          <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+        </div>
+
+
+      </div>
+
+      <!-- 14 -->
+      <div class="product-box">
+
+        <img src="https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/13427898/2021/2/22/ca153eb7-a22d-42fa-9c0d-de031b8e73451613982416033InddusGreyGoldenNetEmbroideredRuffledSaree1.jpg" alt="" >
+        <div class="flex pro-details">
+          <h2>Saree Mall</h2>
+          <p class="pro-title">Ready to Wear Saree</p>
+          <p class="pro-price">Rs. 1400 <del>Rs.1699</del><span>(75% OFF)</span></p>
+        </div>
+        <div class="rate flex">
+          <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+        </div>
+        <div class="buy-btn">
+          <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+        </div>
+
+
+      </div>
+
+      <!-- 15 -->
+      <div class="product-box">
+
+        <img src="https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/17132156/2022/2/11/e0644b44-a751-4f23-842b-3c8a463c4b701644564115198VishudhGreenEthnicMotifsEthnicMaxiDress1.jpg" alt="" >
+        <div class="flex pro-details">
+          <h2>The Chennai Silks</h2>
+          <p class="pro-title">Floral Satin Saree</p>
+          <p class="pro-price">Rs. 1299 <del>Rs.1699</del><span>(75% OFF)</span></p>
+        </div>
+        <div class="rate flex">
+          <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+        </div>
+        <div class="buy-btn">
+          <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+        </div>
+      </div>
+      
+      <!-- 16 -->
+      <div class="product-box">
+
+        <img src="https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/20446260/2022/10/18/73781249-be40-4d8f-beff-f2ac243612401666117102062MiteraBlueBlueTieandDyeBeadsandStonesSaree1.jpg" alt="" >
+        <div class="flex pro-details">
+          <h2>Shaily</h2>
+          <p class="pro-title">Pure Georgette Saree</p>
+          <p class="pro-price">Rs. 424 <del>Rs.1699</del><span>(75% OFF)</span></p>
+        </div>
+        <div class="rate flex">
+          <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+        </div>
+        <div class="buy-btn">
+          <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+        </div>
+
+
+      </div>
+      <!-- 17 -->
+      <div class="product-box">
+
+        <img src="https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/18709036/2022/8/3/d60cffe1-eca3-40b9-830c-7def1779baac1659507299726-Metallic-colored-satin-striped-polyester-saree-3891659507298-1.jpg" alt="" >
+        <div class="flex pro-details">
+          <h2>Anouk</h2>
+          <p class="pro-title">Printed Maxi Dress</p>
+          <p class="pro-price">Rs. 424 <del>Rs.1699</del><span>(75% OFF)</span></p>
+        </div>
+        <div class="rate flex">
+          <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+        </div>
+        <div class="buy-btn">
+          <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+        </div>
+
+
+      </div>
+
+      <!-- 18 -->
+      <div class="product-box">
+
+        <img src="https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/19442274/2022/9/10/44f196be-aea5-451e-93a4-b021565e49a51662812133954-Mitera-Pink--Gold-Toned-Floral-Zari-Pure-Chiffon-Saree-83616-1.jpg" alt="" >
+        <div class="flex pro-details">
+          <h2>Unnati Silks</h2>
+          <p class="pro-title">Ready to Wear Saree</p>
+          <p class="pro-price">Rs. 424 <del>Rs.1699</del><span>(75% OFF)</span></p>
+        </div>
+        <div class="rate flex">
+          <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+        </div>
+        <div class="buy-btn">
+          <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+        </div>
+      </div>
+
+      <!-- 18 -->
+      <div class="product-box">
+
+        <img src="https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/12133280/2020/7/29/92107b27-71c2-4d92-9d35-caeecdbc40fa1596018921474KSUTfuchsiaabstractprintedflaredfulllengthplacketkurtawithro1.jpg" alt="" >
+        <div class="flex pro-details">
+          <h2>Mitera</h2>
+          <p class="pro-title">Floral Satin Saree</p>
+          <p class="pro-price">Rs. 424 <del>Rs.1699</del><span>(75% OFF)</span></p>
+        </div>
+        <div class="rate flex">
+          <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+        </div>
+        <div class="buy-btn">
+          <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+        </div>
+      </div>
+
+      <!-- 18 -->
+      <div class="product-box">
+
+        <img src="https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/22030152/2023/2/17/54ca6bbe-dbf0-4675-bcf8-52edead5f2081676655906575BlueGeorgetteStripedFlaredLehengaCholiwithDupatta1.jpg" alt="" >
+        <div class="flex pro-details">
+          <h2>Kalini</h2>
+          <p class="pro-title">Woven Design Banarasi Saree</p>
+          <p class="pro-price">Rs. 424 <del>Rs.1699</del><span>(75% OFF)</span></p>
+        </div>
+        <div class="rate flex">
+          <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+        </div>
+        <div class="buy-btn">
+          <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+
+  <!-- content End -->
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- footer -->
+  <div class="nfoot">
+    <div class="in-foot">
+
+      <div class="fn1">
+        <img src="Images/logo.png" width="140">
+        <p style="padding-block: 10px; text-align: left; ">Discover endless shopping possibilities with our
+          user-friendly website, competitive prices, secure payment options, fast shipping, and exceptional customer
+          support. Shop now!</p>
+        <a href="#" class="get-started-btn primary-button">Shop Now <i class="fa-solid fa-cart-shopping"></i>
+        </a>
+      </div>
+      <div class="fn2">
+        <h4 class="fhead">Contact</h4>
+        <p><strong>Office Address: </strong> A-15 Near LIC Office Shastri <br> Nagar, Jodhpur, RAJ</p>
+        <p><strong>Phone:</strong> 0291-27765 / (+91) 9253811711</p>
+        <p><strong>Hours:</strong> 10:00 - 18:00, Mon - Sat</p>
+        <div class="follow">
+          <h4 class="fhead">Follow Us</h4>
+          <div class="icons">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-pinterest-p"></i>
+            <i class="fab fa-youtube"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="fn3">
+        <h4 class="fhead">About</h4>
+        <a href="#">About Us</a>
+        <a href="#">Delivery Information</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms & Conditions</a>
+        <a href="#">Contact Us</a>
+      </div>
+
+      <div class="fn4">
+        <h4 class="fhead">Navigations</h4>
+        <a href="#">Home</a>
+        <a href="#">Shop</a>
+        <a href="#">Blog</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+
+        <p style="font-weight: bold;">Secured Payment Gateway</p>
+        <img src="Images/payment.png" class="pay">
+      </div>
+
+    </div>
+  </div>
+
+  <div class="team">
+    <div class="tname">
+      <p>© 2023 QuickBuy. All Rights Reserved.</p>
+      <p>Website Design and Developed By <span style="color: rgb(31, 55, 69);
+        font-weight: bold;">WEBTECH TITANS</span></p>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://kit.fontawesome.com/9a63dbdc63.js" crossorigin="anonymous"></script>
+  <div class="bell">
+    <div class="container bl">
+      <i class="fa-regular fa-bell"></i>
+    </div>
+  </div>
+</body>
+
+</html>

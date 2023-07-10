@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-Commerce</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="../mens.css" />
+  <link rel="stylesheet" href="../style.css">
+  <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="../allstyle.css">
+</head>
+
+<body>
+
+  <section id="header">
+    <div class="navigation">
+      <div style="display: flex; width: 693px; height: 60px;">
+        <a href="#"><img src="Images/logo.png" class="logo" width="125" style="margin-top: 4px;"></a>
+        <ul id="navbar">
+          <li><a href="../../index.html" class="active">Home</a></li>
+          <li><a href="../../shop.html">Shop</a></li>
+          <li><a href="../../About us/aboutus.html">About</a></li>
+          <li><a href="../../contact.html">Contact</a></li>
+
+          <div class="dropdown">
+            <li><a href="#">Studio <sup style="color: #e02a2d; font-size: 14px;">New</sup></a></li>
+
+            <div class="dropdown-content" style="width: 500px; min-height: 400px; top: 22px;;">
+
+              <div class="box1" style="text-align: center;">
+                <img src="Images/st.png" width="150px">
+                <p>Your daily inspiration for everything fashion</p>
+              </div>
+              <div class="box2">
+                <img src="Images/st1.png" alt="" width="100%" height="100%">
+              </div>
+              <div class="box3">
+                <button class="explore-btn">EXPLORE STUDIO > </button>
+              </div>
+
+            </div>
+          </div>
+        </ul>
+      </div>
+
+
+      <div style="display: flex;">
+
+        <!-- <div style="display: flex;"> -->
+        <i class="fa fa-search"></i>
+        <input type="text" class="header-input" placeholder="Search for products, brands and more">
+        <!-- </div> -->
+        <ul id="navbar" style="float: right;">
+          <div class="dropdown">
+            <li><a href="../../cart.html"><i class="fa fa-solid fa-user dropdown-btn"></i></a></li>
+            <div class="dropdown-content" style="width: 240px; position: absolute; left: -80px; top: 25px;">
+
+              <div class="div1">
+                <a href="" style="color: black; font-weight: 600;">Hello User</a>
+                <a href="">8107122911</a>
+              </div>
+              <div class="div2">
+                <a href="">Orders</a>
+                <a href="">Wishlist</a>
+                <a href="">Gift Cards</a>
+                <a href="">Contact Us</a>
+                <a href="">QuickBuy Insider <button class="new-btn">New</button></a>
+              </div>
+              <div class="div3">
+                <a href="">QuickBuy Credit</a>
+                <a href="">Coupons</a>
+                <a href="">Saved Cards</a>
+                <a href="">Saved VPA</a>
+                <a href="">Saved Addresses</a>
+              </div>
+              <div class="div4">
+                <a href="">Edit Profile</a>
+                <a href="">Logout</a>
+              </div>
+            </div>
+          </div>
+          <li><a href="../../cart/index.html"><i class="fa fa-bag-shopping"></i></a></li>
+          <li><a href="../../wishlist2/wish.html"><i class="fa-solid fa-heart"></i></a></li>
+
+        </ul>
+      </div>
+    </div>
+  </section>
+  <section id="header2">
+
+    <div class="navbar2">
+      <div class="navbar2img"><a href="../../fashion.html"><img src="Images/h2.jpg"><br><a href="#"
+            style="padding-left: 20px;">Fashion</a></div>
+      <div class="navbar2img"><a href="../../Mobile/mobile.html"><img src="Images/h4.jpg"><br><a href="#"
+            style="padding-left: 20px;">Mobiles</a></div>
+      <div class="navbar2img"><a href="#"><img src="Images/h6.jpg"><br><a href="#"
+            style="padding-left: 10px;">Electronics</a></div>
+      <div class="navbar2img"><a href="#"><img src="Images/h5.png"><br><a href="#"
+            style="padding-left: 22px;">Beauty</a></div>
+      <div class="navbar2img"><a href="#"><img src="Images/h3.jpg"><br><a href="#"
+            style="padding-left: 20px;">Furniture</a></div>
+    </div>
+
+  </section>
+  <!-- hedaer end -->
+
+  <!-- content start -->
+
+
+
+  <div class="product-name">
+    <div>
+      <p>Mens Casual- <span>17885 items</span></p>
+    </div>
+  </div>
+  <div id="wrapper">
+    <div id="filter">
+      <div class="a">
+        <h3>FILTERS </h3>
+        <div>
+          <input type="radio" id="sagar" name="group">
+          <label for="sagar">T-shirts</label><br>
+          <input type="radio" id="rb" name="group">
+          <label for="rb">Shirts</label><br>
+          <input type="radio" id="rb" name="group">
+          <label for="rb">Jeans</label><br>
+          <input type="radio" id="rb" name="group">
+          <label for="rb">Swaetshirts</label><br>
+          <input type="radio" id="rb" name="group">
+          <label for="rb">Trousers</label><br>
+        </div>
+
+      </div>
+
+      <div class="b">
+        <h3>BRAND</h3>
+        <div>
+          <input type="checkbox" id="cb" name="group">
+          <label for="cb">Roadster</label><br>
+          <input type="checkbox" id="cb" name="group">
+          <label for="cb">Highlander</label><br>
+          <input type="checkbox" id="cb" name="group">
+          <label for="cb">Wrong</label><br>
+          <input type="checkbox" id="cb" name="group">
+          <label for="cb">Here&Now</label><br>
+          <input type="checkbox" id="cb" name="group">
+          <label for="cb">Mast&Machine</label><br>
+          <input type="checkbox" id="cb" name="group">
+          <label for="cb">Spykar</label><br>
+          <input type="checkbox" id="cb" name="group">
+          <label for="cb">Friskers</label><br>
+          <input type="checkbox" id="cb" name="group">
+          <label for="cb">Flying Machine</label>
+        </div>
+
+      </div>
+      <div class="b">
+        <h3>PRICE</h3>
+        <div>
+          <input type="checkbox" id="cb" name="group">
+          <label for="cb">Rs 499 to Rs 1349</label><br>
+          <input type="checkbox" id="cb" name="group">
+          <label for="cb">Rs. 1349 to Rs. 2199</label><br>
+          <input type="checkbox" id="cb" name="group">
+          <label for="cb">Rs. 2199 to Rs. 3049</label><br>
+          <input type="checkbox" id="cb" name="group">
+          <label for="cb">Rs. 3049 to Rs. 3899</label><br>
+        </div>
+
+      </div>
+      <div class="b">
+        <h3>COLOR</h3>
+        <div>
+          <input type="checkbox" id="cb" name="group">
+          <label for="cb">Blue</label><br>
+          <input type="checkbox" id="cb" name="group">
+          <label for="cb">Navy Blue</label><br>
+          <input type="checkbox" id="cb" name="group">
+          <label for="cb">Black</label><br>
+          <input type="checkbox" id="cb" name="group">
+          <label for="cb">White</label><br>
+          <input type="checkbox" id="cb" name="group">
+          <label for="cb">Grey</label><br>
+          <input type="checkbox" id="cb" name="group">
+          <label for="cb">Red</label><br>
+          <input type="checkbox" id="cb" name="group">
+          <label for="cb">Green</label><br>
+        </div>
+
+      </div>
+      <div class="c">
+        <h3>DISCOUNT RANGE</h3>
+        <div>
+          <input type="radio" id="rb" name="group">
+          <label for="rb">10% and above</label><br>
+          <input type="radio" id="rb" name="group">
+          <label for="rb">20% and above</label><br>
+          <input type="radio" id="rb" name="group">
+          <label for="rb">30% and aboves</label><br>
+          <input type="radio" id="rb" name="group">
+          <label for="rb">40% and above</label><br>
+          <input type="radio" id="rb" name="group">
+          <label for="rb">50% and above</label><br>
+          <input type="radio" id="rb" name="group">
+          <label for="rb">60% and above</label><br>
+
+
+        </div>
+
+      </div>
+    </div>
+    <!-- product -->
+
+    <div class="product">
+
+      <!-- 1 -->
+      <div class="product-box">
+
+        <img src="https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/1364628/2016/8/31/11472636737718-Roadster-Men-Blue-Regular-Fit-Printed-Casual-Shirt-6121472636737160-1.jpg " alt="">        
+        <div class="flex pro-details">
+          <h2> Friskers</h2>
+          <p class="pro-title"> Printed Casual Shirt </p>
+          <p class="pro-price">Rs. 299 <del>Rs.599</del><span>(75% OFF)</span></p>
+        </div>
+        <div class="rate flex">
+          <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+        </div>
+        <div class="buy-btn">
+          <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+        </div>
+
+
+      </div>
+      <!-- 2 -->
+      <div class="product-box">
+
+        <img src=" https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/8890027/2022/9/26/f49a7b13-801f-42eb-8f9d-68daa2ad7ff41664184958547HIGHLANDERMenBlackSlimFitMid-RiseCleanLookStretchableJeans1.jpg" alt="" >
+        <div class="flex pro-details">
+          <h2> Flying Machine</h2>
+          <p class="pro-title">  Men 512 Slim Fit Jeans   </p>
+          <p class="pro-price">Rs. 900 <del>Rs.1999</del><span>(65% OFF)</span></p>
+        </div>
+        <div class="rate flex">
+          <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+        </div>
+        <div class="buy-btn">
+          <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+        </div>
+
+
+      </div>
+
+      <!-- 3 -->
+      <div class="product-box">
+
+        <img src=" https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/7288105/2018/10/24/a059288c-512c-468a-87d4-ce36b52840441540360274049-HERENOW-Men-Shirts-5241540360273894-1.jpg" alt="" >
+        <div class="flex pro-details">
+          <h2> Spykar </h2>
+          <p class="pro-title">  Men Cotton T-shirt </p>
+          <p class="pro-price">Rs. 799 <del>Rs.899</del><span>(75% OFF)</span></p>
+        </div>
+        <div class="rate flex">
+          <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+        </div>
+        <div class="buy-btn">
+          <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+        </div>
+
+
+      </div>
+
+      <!-- 4 -->
+      <div class="product-box">
+
+        <img src=" https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/10673544/2019/9/24/6b9c7688-7ca2-4d11-9e5b-a3745ecd8f761569310358973-The-Indian-Garage-Co-Men-Shirts-8481569310357131-1.jpg " alt="" >
+        <div class="flex pro-details">
+          <h2>  Friskers</h2>
+          <p class="pro-title">  Men Cotton T-shirt</p>
+          <p class="pro-price">Rs. 789 <del>Rs.890</del><span>(75% OFF)</span></p>
+        </div>
+        <div class="rate flex">
+          <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+        </div>
+        <div class="buy-btn">
+          <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+        </div>
+
+
+      </div>
+
+      <!-- 5 -->
+      <div class="product-box">
+
+        <img src="https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/19818628/2022/9/6/ec27eee6-d613-4423-8e0f-007aea1603c31662468109188Shirts1.jpg  " alt="" >
+        <div class="flex pro-details">
+          <h2>  Mast&Machine </h2>
+          <p class="pro-title"> Slim Fit Casual Shirt </p>
+          <p class="pro-price">Rs. 1199 <del>Rs.1699</del><span>(75% OFF)</span></p>
+        </div>
+        <div class="rate flex">
+          <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+        </div>
+        <div class="buy-btn">
+          <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+        </div>
+      </div>
+
+      
+      <!-- 6-->
+      <div class="product-box">
+
+        <img src=" https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/14572050/2022/2/3/f7390b3d-ae00-4cfa-92b2-e0c8ec36a1a11643873057427-Dennis-Lingo-Men-Blue-Slim-Fit-Windowpane-Checked-Casual-Shi-1.jpg" alt="" >
+        <div class="flex pro-details">
+          <h2>Wrong</h2>
+          <p class="pro-title"> Men Cotton T-shirt </p>
+          <p class="pro-price">Rs. 799 <del>Rs.999</del><span>(75% OFF)</span></p>
+        </div>
+        <div class="rate flex">
+          <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+        </div>
+        <div class="buy-btn">
+          <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+        </div>
+
+
+      </div>
+      <!-- 7 -->
+      <div class="product-box">
+
+        <img src=" https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/9162835/2022/8/5/696b0ce4-d90e-4171-b8dc-487b65d1cf7f1659708668573HIGHLANDERMenGreyTaperedFitMid-RiseCleanLookStretchableJeans2.jpg " alt="" >
+        <div class="flex pro-details">
+          <h2>  Here&Now</h2>
+          <p class="pro-title"> Men Slim Fit Jeans </p>
+          <p class="pro-price">Rs. 678 <del>Rs.799</del><span>(75% OFF)</span></p>
+        </div>
+        <div class="rate flex">
+          <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+        </div>
+        <div class="buy-btn">
+          <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+        </div>
+
+
+      </div>
+
+      <!-- 8 -->
+      <div class="product-box">
+
+        <img src="https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/23619620/2023/6/13/0a91ed85-04ca-496c-9f92-9e283631283d1686662365903MONTREZMenBlackStraightFitHigh-RiseCargosTrousers1.jpg  " alt="" >
+        <div class="flex pro-details">
+          <h2>  Highlander </h2>
+          <p class="pro-title"> Men 512 Slim Fit Jeans </p>
+          <p class="pro-price">Rs. 599 <del>Rs.699</del><span>(75% OFF)</span></p>
+        </div>
+        <div class="rate flex">
+          <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+        </div>
+        <div class="buy-btn">
+          <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+        </div>
+
+
+      </div>
+
+      <!-- 9 -->
+      <div class="product-box">
+
+        <img src="https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/1700871/2020/1/22/f932ae44-0fb8-4b92-b7bc-f1756253294b1579692118186-HRX-by-Hrithik-Roshan-Men-Teal-Blue-Printed-T-shirt-90515796-1.jpg" alt="" >
+        <div class="flex pro-details">
+          <h2>HRX </h2>
+          <p class="pro-title"> Men Slim Fit Jeans </p>
+          <p class="pro-price">Rs. 799 <del>Rs.999</del><span>(75% OFF)</span></p>
+        </div>
+        <div class="rate flex">
+          <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+        </div>
+        <div class="buy-btn">
+          <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+        </div>
+
+
+      </div>
+
+      <!-- 10 -->
+      <div class="product-box">
+
+        <img src=" https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/18074928/2022/9/22/c6ed6b27-1b3a-4a11-b0b5-97501d43ff8b1663838437266-Levis-Men-Blue-511-Slim-Fit-Heavy-Fade-Stretchable-Jeans-941-1.jpg " alt="" >
+        <div class="flex pro-details">
+          <h2>  Roadster</h2>
+          <p class="pro-title"> Men Slim Fit Jeans </p>
+          <p class="pro-price">Rs. 1099 <del>Rs.1699</del><span>(75% OFF)</span></p>
+        </div>
+        <div class="rate flex">
+          <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+        </div>
+        <div class="buy-btn">
+          <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+        </div>
+      </div>
+
+      
+      <!-- 11 -->
+      <div class="product-box">
+
+        <img src=" https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/20421124/2022/10/17/2dd1cc94-8bed-4f0f-8c95-a785a9910a3c1665981279300HERENOWMenMulticolouredSlimFitPrintedCasualShirt1.jpg " alt="" >
+        <div class="flex pro-details">
+          <h2>Highlander  Men Cotton T-shirt</h2>
+          <p class="pro-title">  </p>
+          <p class="pro-price">Rs. 990 <del>Rs.1699</del><span>(75% OFF)</span></p>
+        </div>
+        <div class="rate flex">
+          <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+        </div>
+        <div class="buy-btn">
+          <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+        </div>
+
+
+      </div>
+      <!-- 12 -->
+      <div class="product-box">
+
+        <img src=" https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/15896532/2022/9/26/9b0df85f-3d72-4c12-89a3-b8f0588a21151664185362666HIGHLANDERMenGreySlimFitEasyWashJoggersTrousers1.jpg " alt="">
+        <div class="flex pro-details">
+          <h2> Roadster Men Slim Fit Jeans</h2>
+          <p class="pro-title">  </p>
+          <p class="pro-price">Rs. 1000 <del>Rs.1699</del><span>(75% OFF)</span></p>
+        </div>
+        <div class="rate flex">
+          <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+        </div>
+        <div class="buy-btn">
+          <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+        </div>
+
+
+      </div>
+
+      <!-- 13 -->
+      <div class="product-box">
+
+        <img src=" https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/10341699/2022/8/25/c23fd879-a9b3-4515-a181-558523a71b9b1661423122029-LOCOMOTIVE-Men-Black--Grey-Slim-Fit-Checked-Casual-Shirt-342-1.jpg " alt="" >
+        <div class="flex pro-details">
+          <h2> Flying Machine </h2>
+          <p class="pro-title"> Men Cotton T-shirt </p>
+          <p class="pro-price">Rs. 1299<del>Rs.1699</del><span>(75% OFF)</span></p>
+        </div>
+        <div class="rate flex">
+          <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+        </div>
+        <div class="buy-btn">
+          <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+        </div>
+
+
+      </div>
+
+      <!-- 14 -->
+      <div class="product-box">
+
+        <img src=" https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/17605700/2023/2/17/90bf4f54-5da2-44ab-aadb-97de558ce0041676633122557-Difference-of-Opinion-Men-Blue-Conversational-Printed-Pure-C-1.jpg " alt="" >
+        <div class="flex pro-details">
+          <h2> Spykar </h2>
+          <p class="pro-title"> Men Cotton T-shirt </p>
+          <p class="pro-price">Rs. 1400 <del>Rs.1699</del><span>(75% OFF)</span></p>
+        </div>
+        <div class="rate flex">
+          <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+        </div>
+        <div class="buy-btn">
+          <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+        </div>
+
+
+      </div>
+
+      <!-- 15 -->
+      <div class="product-box">
+
+        <img src=" https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2019/12/12/1aab2a18-6774-4f83-b292-fe301755a3351576102551329-1.jpg " alt="" >
+        <div class="flex pro-details">
+          <h2>Friskers  </h2>
+          <p class="pro-title"> Men Cotton T-shirt </p>
+          <p class="pro-price">Rs. 1299 <del>Rs.1699</del><span>(75% OFF)</span></p>
+        </div>
+        <div class="rate flex">
+          <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+        </div>
+        <div class="buy-btn">
+          <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+        </div>
+      </div>
+      
+      <!-- 16 -->
+      <div class="product-box">
+
+        <img src=" https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/2363519/2022/4/19/4107aca7-aa30-4dd1-8881-2c5bed8da3a31650366013572RoadsterTimeTravlrMenBlackBasicPureCottonSustainableChinos1.jpg " alt="" >
+        <div class="flex pro-details">
+          <h2> Roadster </h2>
+          <p class="pro-title"> Men Cotton T-shirt </p>
+          <p class="pro-price">Rs. 424 <del>Rs.1699</del><span>(75% OFF)</span></p>
+        </div>
+        <div class="rate flex">
+          <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+        </div>
+        <div class="buy-btn">
+          <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+        </div>
+
+
+      </div>
+      <!-- 17 -->
+      <div class="product-box">
+
+        <img src=" https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/1291760/2017/12/5/11512469309123-Highlander-Dark-Green-Slim-Fit-Casual-Shirt-5071512469308877-1.jpg " alt="" >
+        <div class="flex pro-details">
+          <h2> Here&Now </h2>
+          <p class="pro-title"> Men Cotton T-shirt </p>
+          <p class="pro-price">Rs. 424 <del>Rs.1699</del><span>(75% OFF)</span></p>
+        </div>
+        <div class="rate flex">
+          <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+        </div>
+        <div class="buy-btn">
+          <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+        </div>
+
+
+      </div>
+
+      <!-- 18 -->
+      <div class="product-box">
+
+        <img src=" https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/23619610/2023/6/13/b6b5eaab-651d-40fc-8690-0ac78237bd101686658349193Trousers1.jpg " alt="" >
+        <div class="flex pro-details">
+          <h2>Mast&Machine </h2>
+          <p class="pro-title">Men Cotton T-shirt  </p>
+          <p class="pro-price">Rs. 799 <del>Rs.899</del><span>(75% OFF)</span></p>
+        </div>
+        <div class="rate flex">
+          <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+        </div>
+        <div class="buy-btn">
+          <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+        </div>
+      </div>
+
+      <!-- 18 -->
+      <div class="product-box">
+
+        <img src=" https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2021/3/18/d61b9b12-d7ea-4cf8-afb9-95a8cac3ad221616048041534-1.jpg " alt="" >
+        <div class="flex pro-details">
+          <h2> Friskers </h2>
+          <p class="pro-title"> Men Cotton T-shirt </p>
+          <p class="pro-price">Rs. 499 <del>Rs.699</del><span>(75% OFF)</span></p>
+        </div>
+        <div class="rate flex">
+          <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+        </div>
+        <div class="buy-btn">
+          <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+        </div>
+      </div>
+
+      <!-- 18 -->
+      <div class="product-box">
+
+        <img src=" https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/11780934/2020/4/3/1ed79c22-68b5-491a-b673-e91e4411d8aa1585905063620HIGHLANDERMenOliveGreenBlackSlimFitCheckedCasualShirt1.jpg " alt="" >
+        <div class="flex pro-details">
+          <h2>  Highlander</h2>
+          <p class="pro-title"> Men Cotton T-shirt </p>
+          <p class="pro-price">Rs. 624 <del>Rs.999</del><span>(75% OFF)</span></p>
+        </div>
+        <div class="rate flex">
+          <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+        </div>
+        <div class="buy-btn">
+          <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+
+  <!-- content End -->
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- footer -->
+  <div class="nfoot">
+    <div class="in-foot">
+
+      <div class="fn1">
+        <img src="Images/logo.png" width="140">
+        <p style="padding-block: 10px; text-align: left; ">Discover endless shopping possibilities with our
+          user-friendly website, competitive prices, secure payment options, fast shipping, and exceptional customer
+          support. Shop now!</p>
+        <a href="#" class="get-started-btn primary-button">Shop Now <i class="fa-solid fa-cart-shopping"></i>
+        </a>
+      </div>
+      <div class="fn2">
+        <h4 class="fhead">Contact</h4>
+        <p><strong>Office Address: </strong> A-15 Near LIC Office Shastri <br> Nagar, Jodhpur, RAJ</p>
+        <p><strong>Phone:</strong> 0291-27765 / (+91) 9253811711</p>
+        <p><strong>Hours:</strong> 10:00 - 18:00, Mon - Sat</p>
+        <div class="follow">
+          <h4 class="fhead">Follow Us</h4>
+          <div class="icons">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-pinterest-p"></i>
+            <i class="fab fa-youtube"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="fn3">
+        <h4 class="fhead">About</h4>
+        <a href="#">About Us</a>
+        <a href="#">Delivery Information</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms & Conditions</a>
+        <a href="#">Contact Us</a>
+      </div>
+
+      <div class="fn4">
+        <h4 class="fhead">Navigations</h4>
+        <a href="#">Home</a>
+        <a href="#">Shop</a>
+        <a href="#">Blog</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+
+        <p style="font-weight: bold;">Secured Payment Gateway</p>
+        <img src="Images/payment.png" class="pay">
+      </div>
+
+    </div>
+  </div>
+
+  <div class="team">
+    <div class="tname">
+      <p>© 2023 QuickBuy. All Rights Reserved.</p>
+      <p>Website Design and Developed By <span style="color: rgb(31, 55, 69);
+        font-weight: bold;">WEBTECH TITANS</span></p>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://kit.fontawesome.com/9a63dbdc63.js" crossorigin="anonymous"></script>
+  <div class="bell">
+    <div class="container bl">
+      <i class="fa-regular fa-bell"></i>
+    </div>
+  </div>
+</body>
+
+</html>

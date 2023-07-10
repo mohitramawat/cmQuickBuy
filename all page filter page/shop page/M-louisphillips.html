@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-Commerce</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="../mens.css" />
+  <link rel="stylesheet" href="../style.css">
+  <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="../allstyle.css">
+</head>
+
+<body>
+
+  <section id="header">
+    <div class="navigation">
+      <div style="display: flex; width: 693px; height: 60px;">
+        <a href="#"><img src="Images/logo.png" class="logo" width="125" style="margin-top: 4px;"></a>
+        <ul id="navbar">
+          <li><a href="../../index.html" class="active">Home</a></li>
+          <li><a href="../../shop.html">Shop</a></li>
+          <li><a href="../../About us/aboutus.html">About</a></li>
+          <li><a href="../../contact.html">Contact</a></li>
+
+          <div class="dropdown">
+            <li><a href="#">Studio <sup style="color: #e02a2d; font-size: 14px;">New</sup></a></li>
+
+            <div class="dropdown-content" style="width: 500px; min-height: 400px; top: 22px;;">
+
+              <div class="box1" style="text-align: center;">
+                <img src="Images/st.png" width="150px">
+                <p>Your daily inspiration for everything fashion</p>
+              </div>
+              <div class="box2">
+                <img src="Images/st1.png" alt="" width="100%" height="100%">
+              </div>
+              <div class="box3">
+                <button class="explore-btn">EXPLORE STUDIO > </button>
+              </div>
+
+            </div>
+          </div>
+        </ul>
+      </div>
+
+
+      <div style="display: flex;">
+
+        <!-- <div style="display: flex;"> -->
+        <i class="fa fa-search"></i>
+        <input type="text" class="header-input" placeholder="Search for products, brands and more">
+        <!-- </div> -->
+        <ul id="navbar" style="float: right;">
+          <div class="dropdown">
+            <li><a href="../../cart.html"><i class="fa fa-solid fa-user dropdown-btn"></i></a></li>
+            <div class="dropdown-content" style="width: 240px; position: absolute; left: -80px; top: 25px;">
+
+              <div class="div1">
+                <a href="" style="color: black; font-weight: 600;">Hello User</a>
+                <a href="">8107122911</a>
+              </div>
+              <div class="div2">
+                <a href="">Orders</a>
+                <a href="">Wishlist</a>
+                <a href="">Gift Cards</a>
+                <a href="">Contact Us</a>
+                <a href="">QuickBuy Insider <button class="new-btn">New</button></a>
+              </div>
+              <div class="div3">
+                <a href="">QuickBuy Credit</a>
+                <a href="">Coupons</a>
+                <a href="">Saved Cards</a>
+                <a href="">Saved VPA</a>
+                <a href="">Saved Addresses</a>
+              </div>
+              <div class="div4">
+                <a href="">Edit Profile</a>
+                <a href="">Logout</a>
+              </div>
+            </div>
+          </div>
+          <li><a href="../../cart/index.html"><i class="fa fa-bag-shopping"></i></a></li>
+          <li><a href="../../wishlist2/wish.html"><i class="fa-solid fa-heart"></i></a></li>
+
+        </ul>
+      </div>
+    </div>
+  </section>
+  <section id="header2">
+
+    <div class="navbar2">
+      <div class="navbar2img"><a href="../../fashion.html"><img src="Images/h2.jpg"><br><a href="#"
+            style="padding-left: 20px;">Fashion</a></div>
+      <div class="navbar2img"><a href="#"><img src="Images/h4.jpg"><br><a href="#"
+            style="padding-left: 20px;">Mobiles</a></div>
+      <div class="navbar2img"><a href="#"><img src="Images/h6.jpg"><br><a href="#"
+            style="padding-left: 10px;">Electronics</a></div>
+      <div class="navbar2img"><a href="#"><img src="Images/h5.png"><br><a href="#"
+            style="padding-left: 22px;">Beauty</a></div>
+      <div class="navbar2img"><a href="#"><img src="Images/h3.jpg"><br><a href="#"
+            style="padding-left: 20px;">Furniture</a></div>
+    </div>
+
+  </section>
+  <!-- hedaer end -->
+
+  <!-- content start -->
+
+
+
+  <div class="product-name">
+    <div>
+      <p>Louis Philippe- <span>7665 items</span></p>
+    </div>
+  </div>
+  <div id="wrapper">
+    <div id="filter">
+      <div class="a">
+        <h3>FILTERS </h3>
+        <div>
+          <input type="radio" id="sagar" name="group">
+          <label for="sagar">Shirts</label><br>
+          <input type="radio" id="rb" name="group">
+          <label for="rb">Trousers</label><br>
+          <input type="radio" id="rb" name="group">
+          <label for="rb">T-Shirts</label><br>
+          <input type="radio" id="rb" name="group">
+          <label for="rb">Jeans</label><br>
+          <input type="radio" id="rb" name="group">
+          <label for="rb">Suits</label><br>
+        </div>
+
+      </div>
+
+      <div class="b">
+        <h3>PRICE</h3>
+        <div>
+          <input type="checkbox" id="cb" name="group">
+          <label for="cb">Rs 499 to Rs 1349</label><br>
+          <input type="checkbox" id="cb" name="group">
+          <label for="cb">Rs. 1349 to Rs. 2199</label><br>
+          <input type="checkbox" id="cb" name="group">
+          <label for="cb">Rs. 2199 to Rs. 3049</label><br>
+          <input type="checkbox" id="cb" name="group">
+          <label for="cb">Rs. 3049 to Rs. 3899</label><br>
+        </div>
+
+      </div>
+      <div class="b">
+        <h3>COLOR</h3>
+        <div>
+          <input type="checkbox" id="cb" name="group">
+          <label for="cb">Blue</label><br>
+          <input type="checkbox" id="cb" name="group">
+          <label for="cb">Navy Blue</label><br>
+          <input type="checkbox" id="cb" name="group">
+          <label for="cb">Black</label><br>
+          <input type="checkbox" id="cb" name="group">
+          <label for="cb">White</label><br>
+          <input type="checkbox" id="cb" name="group">
+          <label for="cb">Grey</label><br>
+          <input type="checkbox" id="cb" name="group">
+          <label for="cb">Red</label><br>
+          <input type="checkbox" id="cb" name="group">
+          <label for="cb">Green</label><br>
+        </div>
+
+      </div>
+      <div class="c">
+        <h3>DISCOUNT RANGE</h3>
+        <div>
+          <input type="radio" id="rb" name="group">
+          <label for="rb">10% and above</label><br>
+          <input type="radio" id="rb" name="group">
+          <label for="rb">20% and above</label><br>
+          <input type="radio" id="rb" name="group">
+          <label for="rb">30% and aboves</label><br>
+          <input type="radio" id="rb" name="group">
+          <label for="rb">40% and above</label><br>
+          <input type="radio" id="rb" name="group">
+          <label for="rb">50% and above</label><br>
+          <input type="radio" id="rb" name="group">
+          <label for="rb">60% and above</label><br>
+
+
+        </div>
+
+      </div>
+    </div>
+    <!-- product -->
+
+    <div class="product">
+
+      <!-- 1 -->
+      <div class="product-box">
+
+        <img src="https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/23082472/2023/5/23/6ab6e95d-2712-4d59-be8a-fa7e00018fc91684836944815-Louis-Philippe-Men-Trousers-3781684836944311-1.jpg " alt="">        
+        <div class="flex pro-details">
+          <h2>Louis Philippe </h2>
+          <p class="pro-title"> Men Slim Fit Formal Trousers </p>
+          <p class="pro-price">Rs. 2199 <del>Rs.3200</del><span>(75% OFF)</span></p>
+        </div>
+        <div class="rate flex">
+          <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+        </div>
+        <div class="buy-btn">
+          <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+        </div>
+
+
+      </div>
+      <!-- 2 -->
+      <div class="product-box">
+
+        <img src="https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/22260084/2023/4/7/d2c1b29c-9743-4d34-bd7b-7304146de8211680844732576-Louis-Philippe-Men-Shirts-3781680844731989-1.jpg " alt="" >
+        <div class="flex pro-details">
+          <h2> Louis Philippe</h2>
+          <p class="pro-title"> Slim Fit Cotton Formal Shirt    </p>
+          <p class="pro-price">Rs. 3800 <del>Rs.4999</del><span>(65% OFF)</span></p>
+        </div>
+        <div class="rate flex">
+          <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+        </div>
+        <div class="buy-btn">
+          <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+        </div>
+
+
+      </div>
+
+      <!-- 3 -->
+      <div class="product-box">
+
+        <img src="https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/23083564/2023/5/23/502797d8-42e9-41e7-a3f8-abb3962b0e201684843318150-Louis-Philippe-Jeans-Men-Tshirts-3011684843317582-1.jpg " alt="" >
+        <div class="flex pro-details">
+          <h2> Louis Philippe </h2>
+          <p class="pro-title"> Polo Collar Slim Fit T-shirt </p>
+          <p class="pro-price">Rs. 2299 <del>Rs.3699</del><span>(75% OFF)</span></p>
+        </div>
+        <div class="rate flex">
+          <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+        </div>
+        <div class="buy-btn">
+          <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+        </div>
+
+
+      </div>
+
+      <!-- 4 -->
+      <div class="product-box">
+
+        <img src=" https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/21467948/2023/2/24/ac3e0ed2-1716-422f-981c-6c7b6abee2ea1677212406905-Louis-Philippe-Sport-Men-Trousers-1221677212406521-1.jpg " alt="" >
+        <div class="flex pro-details">
+          <h2> Louis Philippe </h2>
+          <p class="pro-title"> Men Slim Fit Chinos Trousers </p>
+          <p class="pro-price">Rs. 1999 <del>Rs.2299</del><span>(75% OFF)</span></p>
+        </div>
+        <div class="rate flex">
+          <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+        </div>
+        <div class="buy-btn">
+          <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+        </div>
+
+
+      </div>
+
+      <!-- 5 -->
+      <div class="product-box">
+
+        <img src=" https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/23082428/2023/5/26/69c23143-6f31-4f11-810e-c126f5351b4a1685089804832-Louis-Philippe-Men-Shirts-7071685089804451-1.jpg " alt="" >
+        <div class="flex pro-details">
+          <h2>  Louis Philippe </h2>
+          <p class="pro-title"> Slim Fit Cotton Formal Shirt </p>
+          <p class="pro-price">Rs. 1199 <del>Rs.1699</del><span>(75% OFF)</span></p>
+        </div>
+        <div class="rate flex">
+          <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+        </div>
+        <div class="buy-btn">
+          <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+        </div>
+      </div>
+
+      
+      <!-- 6-->
+      <div class="product-box">
+
+        <img src=" https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/14047672/2021/5/17/c1fd89a5-6364-4d0b-bde4-fcc0b7ddd1571621252467672-Louis-Philippe-Men-Navy-Blue-Solid-Polo-Collar-T-shirt-71816-1.jpg " alt="" >
+        <div class="flex pro-details">
+          <h2>Louis Philippe</h2>
+          <p class="pro-title"> Polo Collar T-shirt </p>
+          <p class="pro-price">Rs. 3299 <del>Rs.4699</del><span>(75% OFF)</span></p>
+        </div>
+        <div class="rate flex">
+          <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+        </div>
+        <div class="buy-btn">
+          <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+        </div>
+
+
+      </div>
+      <!-- 7 -->
+      <div class="product-box">
+
+        <img src=" https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/23083570/2023/5/23/22710460-d552-4fa1-a95b-375b41ef87b21684845412960-Louis-Philippe-Jeans-Men-Tshirts-2321684845412473-1.jpg " alt="" >
+        <div class="flex pro-details">
+          <h2>  Louis Philippe</h2>
+          <p class="pro-title"> Polo Collar Slim Fit T-shirt </p>
+          <p class="pro-price">Rs. 2099 <del>Rs.2699</del><span>(75% OFF)</span></p>
+        </div>
+        <div class="rate flex">
+          <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+        </div>
+        <div class="buy-btn">
+          <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+        </div>
+
+
+      </div>
+
+      <!-- 8 -->
+      <div class="product-box">
+
+        <img src=" https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/19092282/2022/9/14/08edfafc-72db-4c90-8329-19852a1c84171663156573931-Louis-Philippe-Men-Cream-Coloured-Solid-Classic-Slim-Fit-Pur-1.jpg " alt="" >
+        <div class="flex pro-details">
+          <h2> Louis Philippe  </h2>
+          <p class="pro-title">  Men Slim Fit Formal Shirt</p>
+          <p class="pro-price">Rs. 1200 <del>Rs.1699</del><span>(75% OFF)</span></p>
+        </div>
+        <div class="rate flex">
+          <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+        </div>
+        <div class="buy-btn">
+          <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+        </div>
+
+
+      </div>
+
+      <!-- 9 -->
+      <div class="product-box">
+
+        <img src=" https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/11353956/2020/2/12/9c48b7b7-a6f6-4620-8e9f-d000ba3016a11581497225150-Louis-Philippe-Men-Suits-4981581497221685-1.jpg " alt="" >
+        <div class="flex pro-details">
+          <h2>Louis Philippe </h2>
+          <p class="pro-title"> Slim Fit Single-Breasted Suit </p>
+          <p class="pro-price">Rs. 1399 <del>Rs.1699</del><span>(75% OFF)</span></p>
+        </div>
+        <div class="rate flex">
+          <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+        </div>
+        <div class="buy-btn">
+          <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+        </div>
+
+
+      </div>
+
+      <!-- 10 -->
+      <div class="product-box">
+
+        <img src=" https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/21936206/2023/2/28/327a3a32-3dc5-48a0-a4ba-7af5b4fda24f1677585020532-Louis-Philippe-Sport-Men-Tshirts-8971677585020002-1.jpg " alt="" >
+        <div class="flex pro-details">
+          <h2> Louis Philippe </h2>
+          <p class="pro-title"> Men Polo Collar Slim Fit T-shirt </p>
+          <p class="pro-price">Rs. 1099 <del>Rs.1699</del><span>(75% OFF)</span></p>
+        </div>
+        <div class="rate flex">
+          <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+        </div>
+        <div class="buy-btn">
+          <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+        </div>
+      </div>
+
+      
+      <!-- 11 -->
+      <div class="product-box">
+
+        <img src=" https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/18021844/2022/6/14/4dc2a6bd-30db-4a8a-a4a3-956e684cfbe61655186427415-Louis-Philippe-Men-Blazers-1001655186426735-1.jpg " alt="" >
+        <div class="flex pro-details">
+          <h2> Louis Philippe </h2>
+          <p class="pro-title">Slim Fit Single-Breasted Suit  </p>
+          <p class="pro-price">Rs. 1990 <del>Rs.1699</del><span>(75% OFF)</span></p>
+        </div>
+        <div class="rate flex">
+          <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+        </div>
+        <div class="buy-btn">
+          <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+        </div>
+
+
+      </div>
+      <!-- 12 -->
+      <div class="product-box">
+
+        <img src=" https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/22680438/2023/5/4/92305dce-730d-47a0-a228-31ecd516a5fc1683190335373-Louis-Philippe-Sport-Men-Shirts-981683190334948-1.jpg " alt="">
+        <div class="flex pro-details">
+          <h2> Louis Philippe </h2>
+          <p class="pro-title"> Men Polo Collar Slim Fit T-shirt  </p>
+          <p class="pro-price">Rs. 1300 <del>Rs.1699</del><span>(75% OFF)</span></p>
+        </div>
+        <div class="rate flex">
+          <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+        </div>
+        <div class="buy-btn">
+          <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+        </div>
+
+
+      </div>
+
+      <!-- 13 -->
+      <div class="product-box">
+
+        <img src=" https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/22679860/2023/4/21/d53c5f31-8aa6-4b8e-99ba-3aa4122051c51682079162296-Louis-Philippe-Jeans-Men-Trousers-6641682079161857-1.jpg " alt="" >
+        <div class="flex pro-details">
+          <h2>Louis Philippe  </h2>
+          <p class="pro-title">  Men Polo Collar Slim Fit T-shirt </p>
+          <p class="pro-price">Rs. 1299<del>Rs.1699</del><span>(75% OFF)</span></p>
+        </div>
+        <div class="rate flex">
+          <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+        </div>
+        <div class="buy-btn">
+          <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+        </div>
+
+
+      </div>
+
+      <!-- 14 -->
+      <div class="product-box">
+
+        <img src=" https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/17807210/2022/5/11/ef12a6ba-cac1-4f70-b23b-d1524171ab541652261710326-Louis-Philippe-Jeans-Men-Shirts-4591652261709716-1.jpg " alt="" >
+        <div class="flex pro-details">
+          <h2> Louis Philippe </h2>
+          <p class="pro-title">  Men Polo Collar Slim Fit T-shirt </p>
+          <p class="pro-price">Rs. 1400 <del>Rs.1699</del><span>(75% OFF)</span></p>
+        </div>
+        <div class="rate flex">
+          <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+        </div>
+        <div class="buy-btn">
+          <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+        </div>
+
+
+      </div>
+
+      <!-- 15 -->
+      <div class="product-box">
+
+        <img src=" https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/23082388/2023/5/23/c7dfd01b-fcc0-405e-a84c-a72ae624ebe41684836924078-Louis-Philippe-Men-Trousers-2511684836923624-1.jpg " alt="" >
+        <div class="flex pro-details">
+          <h2> Louis Philippe </h2>
+          <p class="pro-title"> Men Polo Collar Slim Fit T-shirt  </p>
+          <p class="pro-price">Rs. 1299 <del>Rs.1699</del><span>(75% OFF)</span></p>
+        </div>
+        <div class="rate flex">
+          <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+        </div>
+        <div class="buy-btn">
+          <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+        </div>
+      </div>
+      
+      <!-- 16 -->
+      <div class="product-box">
+
+        <img src=" https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/22672536/2023/4/21/3a41a6f6-c7f8-4dd7-8ce8-6966bdbe41381682072645055-Louis-Philippe-Men-Shirts-5381682072644649-1.jpg " alt="" >
+        <div class="flex pro-details">
+          <h2> Louis Philippe </h2>
+          <p class="pro-title">  Men Polo Collar Slim Fit T-shirt </p>
+          <p class="pro-price">Rs. 1424 <del>Rs.1699</del><span>(75% OFF)</span></p>
+        </div>
+        <div class="rate flex">
+          <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+        </div>
+        <div class="buy-btn">
+          <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+        </div>
+
+
+      </div>
+      <!-- 17 -->
+      <div class="product-box">
+
+        <img src=" https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/14047670/2023/6/13/f55d15c1-11dc-4e7b-871c-03512efa4e251686659554597LouisPhilippeMenTealGreenPoloCollarT-shirt1.jpg " alt="" >
+        <div class="flex pro-details">
+          <h2>Louis Philippe  </h2>
+          <p class="pro-title"> Men Polo Collar Slim Fit T-shirt  </p>
+          <p class="pro-price">Rs. 1294 <del>Rs.1699</del><span>(75% OFF)</span></p>
+        </div>
+        <div class="rate flex">
+          <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+        </div>
+        <div class="buy-btn">
+          <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+        </div>
+
+
+      </div>
+
+      <!-- 18 -->
+      <div class="product-box">
+
+        <img src=" https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/21874462/2023/2/23/3094995c-e038-4f79-bfed-a800b0da24ed1677144940666-Louis-Philippe-Jeans-Men-Trousers-6191677144939938-1.jpg " alt="" >
+        <div class="flex pro-details">
+          <h2>Louis Philippe </h2>
+          <p class="pro-title"> Men Polo Collar Slim Fit T-shirt  </p>
+          <p class="pro-price">Rs. 1300 <del>Rs.1699</del><span>(75% OFF)</span></p>
+        </div>
+        <div class="rate flex">
+          <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+        </div>
+        <div class="buy-btn">
+          <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+        </div>
+      </div>
+
+      <!-- 18 -->
+      <div class="product-box">
+
+        <img src=" https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/22672232/2023/5/3/9e48b098-46ca-44f9-8e66-18e4d06e957f1683115761046-Louis-Philippe-Men-Shirts-2771683115760638-1.jpg " alt="" >
+        <div class="flex pro-details">
+          <h2> Louis Philippe </h2>
+          <p class="pro-title"> Men Polo Collar Slim Fit T-shirt  </p>
+          <p class="pro-price">Rs. 1324 <del>Rs.1699</del><span>(75% OFF)</span></p>
+        </div>
+        <div class="rate flex">
+          <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+        </div>
+        <div class="buy-btn">
+          <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+        </div>
+      </div>
+
+      <!-- 18 -->
+      <div class="product-box">
+
+        <img src="  https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/14047676/2022/8/25/ed5a6456-6963-48a0-ac6b-3c250bf36cb61661407894457-Louis-Philippe-Men-Charcoal-Polo-Collar-T-shirt-278166140789-1.jpg" alt="" >
+        <div class="flex pro-details">
+          <h2> Louis Philippe </h2>
+          <p class="pro-title"> Men Polo Collar Slim Fit T-shirt  </p>
+          <p class="pro-price">Rs. 1424 <del>Rs.1699</del><span>(75% OFF)</span></p>
+        </div>
+        <div class="rate flex">
+          <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+        </div>
+        <div class="buy-btn">
+          <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+
+  <!-- content End -->
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- footer -->
+  <div class="nfoot">
+    <div class="in-foot">
+
+      <div class="fn1">
+        <img src="Images/logo.png" width="140">
+        <p style="padding-block: 10px; text-align: left; ">Discover endless shopping possibilities with our
+          user-friendly website, competitive prices, secure payment options, fast shipping, and exceptional customer
+          support. Shop now!</p>
+        <a href="#" class="get-started-btn primary-button">Shop Now <i class="fa-solid fa-cart-shopping"></i>
+        </a>
+      </div>
+      <div class="fn2">
+        <h4 class="fhead">Contact</h4>
+        <p><strong>Office Address: </strong> A-15 Near LIC Office Shastri <br> Nagar, Jodhpur, RAJ</p>
+        <p><strong>Phone:</strong> 0291-27765 / (+91) 9253811711</p>
+        <p><strong>Hours:</strong> 10:00 - 18:00, Mon - Sat</p>
+        <div class="follow">
+          <h4 class="fhead">Follow Us</h4>
+          <div class="icons">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-pinterest-p"></i>
+            <i class="fab fa-youtube"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="fn3">
+        <h4 class="fhead">About</h4>
+        <a href="#">About Us</a>
+        <a href="#">Delivery Information</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms & Conditions</a>
+        <a href="#">Contact Us</a>
+      </div>
+
+      <div class="fn4">
+        <h4 class="fhead">Navigations</h4>
+        <a href="#">Home</a>
+        <a href="#">Shop</a>
+        <a href="#">Blog</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+
+        <p style="font-weight: bold;">Secured Payment Gateway</p>
+        <img src="Images/payment.png" class="pay">
+      </div>
+
+    </div>
+  </div>
+
+  <div class="team">
+    <div class="tname">
+      <p>© 2023 QuickBuy. All Rights Reserved.</p>
+      <p>Website Design and Developed By <span style="color: rgb(31, 55, 69);
+        font-weight: bold;">WEBTECH TITANS</span></p>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://kit.fontawesome.com/9a63dbdc63.js" crossorigin="anonymous"></script>
+  <div class="bell">
+    <div class="container bl">
+      <i class="fa-regular fa-bell"></i>
+    </div>
+  </div>
+</body>
+
+</html>

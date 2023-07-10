@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-Commerce</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="all page filter page/mens.css" />
+  <link rel="stylesheet" href="all page filter page/style.css">
+  <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="all page filter page/allstyle.css">
+</head>
+
+<body>
+
+  <section id="header">
+    <div class="navigation">
+      <div style="display: flex; width: 693px; height: 60px;">
+        <a href="#"><img src="Images/logo.png" class="logo" width="125" style="margin-top: 4px;"></a>
+        <ul id="navbar">
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="About us/aboutus.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+
+          <div class="dropdown">
+            <li><a href="#">Studio <sup style="color: #e02a2d; font-size: 14px;">New</sup></a></li>
+
+            <div class="dropdown-content" style="width: 500px; min-height: 400px; top: 22px;;">
+
+              <div class="box1" style="text-align: center;">
+                <img src="Images/st.png" width="150px">
+                <p>Your daily inspiration for everything fashion</p>
+              </div>
+              <div class="box2">
+                <img src="Images/st1.png" alt="" width="100%" height="100%">
+              </div>
+              <div class="box3">
+                <button class="explore-btn">EXPLORE STUDIO > </button>
+              </div>
+
+            </div>
+          </div>
+        </ul>
+      </div>
+
+
+      <div style="display: flex;">
+
+        <!-- <div style="display: flex;"> -->
+        <i class="fa fa-search"></i>
+        <input type="text" class="header-input" placeholder="Search for products, brands and more">
+        <!-- </div> -->
+        <ul id="navbar" style="float: right;">
+          <div class="dropdown">
+            <li><a href="cart.html"><i class="fa fa-solid fa-user dropdown-btn"></i></a></li>
+            <div class="dropdown-content" style="width: 240px; position: absolute; left: -80px; top: 25px;">
+
+              <div class="div1">
+                <a href="" style="color: black; font-weight: 600;">Hello User</a>
+                <a href="">8107122911</a>
+              </div>
+              <div class="div2">
+                <a href="">Orders</a>
+                <a href="">Wishlist</a>
+                <a href="">Gift Cards</a>
+                <a href="">Contact Us</a>
+                <a href="">QuickBuy Insider <button class="new-btn">New</button></a>
+              </div>
+              <div class="div3">
+                <a href="">QuickBuy Credit</a>
+                <a href="">Coupons</a>
+                <a href="">Saved Cards</a>
+                <a href="">Saved VPA</a>
+                <a href="">Saved Addresses</a>
+              </div>
+              <div class="div4">
+                <a href="">Edit Profile</a>
+                <a href="">Logout</a>
+              </div>
+            </div>
+          </div>
+          <li><a href="cart/cart.html"><i class="fa fa-bag-shopping"></i></a></li>
+          <li><a href="wishlist2/wish.html"><i class="fa-solid fa-heart"></i></a></li>
+
+        </ul>
+      </div>
+    </div>
+  </section>
+  <section id="header2">
+
+    <div class="navbar2">
+      <div class="navbar2img"><a href="fashion.html"><img src="Images/h2.jpg"><br><a href="#"
+            style="padding-left: 20px;">Fashion</a></div>
+      <div class="navbar2img"><a href="Mobile/mobile.html"><img src="Images/h4.jpg"><br><a href="#"
+            style="padding-left: 20px;">Mobiles</a></div>
+      <div class="navbar2img"><a href="electronics.html"><img src="Images/h6.jpg"><br><a href="#"
+            style="padding-left: 10px;">Electronics</a></div>
+      <div class="navbar2img"><a href="beauty.html"><img src="Images/h5.png"><br><a href="#"
+            style="padding-left: 22px;">Beauty</a></div>
+      <div class="navbar2img"><a href="furniture/furniture.html"><img src="Images/h3.jpg"><br><a href="#"
+            style="padding-left: 20px;">Furniture</a></div>
+    </div>
+
+  </section>
+  <!-- hedaer end -->
+
+  <!-- content start -->
+
+
+
+  <div class="product-name">
+    <div>
+      <p>Beauty- <span>17885 items</span></p>
+    </div>
+  </div>
+  <div id="wrapper">
+    <div id="filter">
+      <div class="a">
+        <h3>FILTERS </h3>
+        <div>
+          <input type="radio" id="sagar" name="group">
+          <label for="sagar">Lipstick</label><br>
+          <input type="radio" id="rb" name="group">
+          <label for="rb">Nail Polish</label><br>
+          <input type="radio" id="rb" name="group">
+          <label for="rb">Beauty Accessory</label><br>
+          <input type="radio" id="rb" name="group">
+          <label for="rb">Body Oil</label><br>
+          <input type="radio" id="rb" name="group">
+          <label for="rb">Body Wash and Scrub</label><br>
+        </div>
+
+      </div>
+
+      <div class="b">
+        <h3>BRAND</h3>
+        <div>
+          <input type="checkbox" id="cb" name="group">
+          <label for="cb">Nivea</label><br>
+          <input type="checkbox" id="cb" name="group">
+          <label for="cb">WOW SKIN SCIENCE</label><br>
+          <input type="checkbox" id="cb" name="group">
+          <label for="cb">Parachute</label><br>
+          <input type="checkbox" id="cb" name="group">
+          <label for="cb">Olay</label><br>
+          <input type="checkbox" id="cb" name="group">
+          <label for="cb">Maybelline</label><br>
+          <input type="checkbox" id="cb" name="group">
+          <label for="cb">Biotique</label><br>
+          <input type="checkbox" id="cb" name="group">
+          <label for="cb">Neutrogena</label><br>
+          <input type="checkbox" id="cb" name="group">
+          <label for="cb">LOreal</label>
+        </div>
+
+      </div>
+      <div class="b">
+        <h3>PRICE</h3>
+        <div>
+          <input type="checkbox" id="cb" name="group">
+          <label for="cb">Rs 499 to Rs 1349</label><br>
+          <input type="checkbox" id="cb" name="group">
+          <label for="cb">Rs. 1349 to Rs. 2199</label><br>
+          <input type="checkbox" id="cb" name="group">
+          <label for="cb">Rs. 2199 to Rs. 3049</label><br>
+          <input type="checkbox" id="cb" name="group">
+          <label for="cb">Rs. 3049 to Rs. 3899</label><br>
+        </div>
+
+      </div>
+      
+      <div class="c">
+        <h3>DISCOUNT RANGE</h3>
+        <div>
+          <input type="radio" id="rb" name="group">
+          <label for="rb">10% and above</label><br>
+          <input type="radio" id="rb" name="group">
+          <label for="rb">20% and above</label><br>
+          <input type="radio" id="rb" name="group">
+          <label for="rb">30% and aboves</label><br>
+          <input type="radio" id="rb" name="group">
+          <label for="rb">40% and above</label><br>
+          <input type="radio" id="rb" name="group">
+          <label for="rb">50% and above</label><br>
+          <input type="radio" id="rb" name="group">
+          <label for="rb">60% and above</label><br>
+
+
+        </div>
+
+      </div>
+    </div>
+    <!-- product -->
+
+    <div class="product">
+
+      <!-- 1 -->
+      <div class="product-box">
+
+        <img src=" https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/19202680/2022/11/18/403efaa6-9f16-4b19-ad61-2ed28dad53ec1668773812470-LOreal-Paris-Hyaluron-Moisture-72H-Moisture-Filling-Shampoo--1.jpg" alt="">        
+        <div class="flex pro-details">
+          <h2> LOreal</h2>
+          <p class="pro-title">  Hyaluron Shampoo-180ml</p>
+          <p class="pro-price">Rs. 199 <del>Rs.645</del><span>(75% OFF)</span></p>
+        </div>
+        <div class="rate flex">
+          <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+        </div>
+        <div class="buy-btn">
+          <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+        </div>
+
+
+      </div>
+      <!-- 2 -->
+      <div class="product-box">
+
+        <img src=" https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/6628442/2023/7/5/3991dec5-544a-4fba-b57d-76a3928367681688538184145-Himalaya-Purifying-Neem-Face-Wash-for-Acne-Prone-Skin-150-ml-1.jpg" alt="" >
+        <div class="flex pro-details">
+          <h2>Himalaya </h2>
+          <p class="pro-title">   Neem Face Wash 150 ml  </p>
+          <p class="pro-price">Rs. 150 <del>Rs.999</del><span>(65% OFF)</span></p>
+        </div>
+        <div class="rate flex">
+          <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+        </div>
+        <div class="buy-btn">
+          <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+        </div>
+
+
+      </div>
+
+      <!-- 3 -->
+      <div class="product-box">
+
+        <img src="https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/10848954/2022/7/4/a7a8efd5-6c90-46c2-8eff-04311a6ba8a21656929189319-LOreal-Paris-Unisex-Total-Repair-5-Hair-Conditioner-175-ml-8-1.jpg " alt="" >
+        <div class="flex pro-details">
+          <h2>  LOreal</h2>
+          <p class="pro-title">  Unisex Hair Conditioner 175 ml </p>
+          <p class="pro-price">Rs. 179 <del>Rs.699</del><span>(75% OFF)</span></p>
+        </div>
+        <div class="rate flex">
+          <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+        </div>
+        <div class="buy-btn">
+          <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+        </div>
+
+
+      </div>
+
+      <!-- 4 -->
+      <div class="product-box">
+
+        <img src=" https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/2427962/2022/4/19/c51f921d-4e01-4c3e-a838-740146e1d59b1650366020434NeutrogenaUltraSheerDryTouchSunblockSPF501.jpg " alt="" >
+        <div class="flex pro-details">
+          <h2> Neutrogena </h2>
+          <p class="pro-title"> UltraSheer Dry Touch Sunblock </p>
+          <p class="pro-price">Rs. 1999 <del>Rs.2299</del><span>(75% OFF)</span></p>
+        </div>
+        <div class="rate flex">
+          <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+        </div>
+        <div class="buy-btn">
+          <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+        </div>
+
+
+      </div>
+
+      <!-- 5 -->
+      <div class="product-box">
+
+        <img src=" https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/17394608/2022/3/7/71e92476-fafb-41fb-8beb-3d0480c9f92e1646640007036SWISSBEAUTYColorSplashNailPolish11ml-39NailPolishSWISSBEAUTY1.jpg " alt="" >
+        <div class="flex pro-details">
+          <h2>   GK HAIR</h2>
+          <p class="pro-title"> Hair Taming System Set </p>
+          <p class="pro-price">Rs. 1999 <del>Rs.2699</del><span>(75% OFF)</span></p>
+        </div>
+        <div class="rate flex">
+          <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+        </div>
+        <div class="buy-btn">
+          <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+        </div>
+      </div>
+
+      
+      <!-- 6-->
+      <div class="product-box">
+
+        <img src=" https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/12869420/2023/2/21/04d21059-5f47-4912-b7a6-65b242d54fbb1676970086429Lakme9to5ComplexionCareSPF30CCCream-Bronze30g1.jpg " alt="" >
+        <div class="flex pro-details">
+          <h2>Lakme</h2>
+          <p class="pro-title"> 9 to 5 Complexion Care Cream </p>
+          <p class="pro-price">Rs. 252 <del>Rs.699</del><span>(75% OFF)</span></p>
+        </div>
+        <div class="rate flex">
+          <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+        </div>
+        <div class="buy-btn">
+          <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+        </div>
+
+
+      </div>
+      <!-- 7 -->
+      <div class="product-box">
+
+        <img src=" https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/1963241/2023/6/1/15aeab9d-053f-49fd-abbd-fcdf950da2b11685615335220MaybellineNewYorkSmudgeProofColossalKajalwithAloeVera-DeepBl1.jpg " alt="" >
+        <div class="flex pro-details">
+          <h2> Maybelline </h2>
+          <p class="pro-title"> Colossal Kajal - Deep Black </p>
+          <p class="pro-price">Rs. 149 <del>Rs.699</del><span>(75% OFF)</span></p>
+        </div>
+        <div class="rate flex">
+          <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+        </div>
+        <div class="buy-btn">
+          <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+        </div>
+
+
+      </div>
+
+      <!-- 8 -->
+      <div class="product-box">
+
+        <img src=" https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/10444752/2021/8/11/9f4a5426-229a-4f2a-a740-986ec82bf6211628659283564OlayRegeneristAdvancedAnti-AgeingMicro-SculptingCream50g1.jpg " alt="" >
+        <div class="flex pro-details">
+          <h2> Olay  </h2>
+          <p class="pro-title"> Maybelline </p>
+          <p class="pro-price">Rs. 1200 <del>Rs.1699</del><span>(75% OFF)</span></p>
+        </div>
+        <div class="rate flex">
+          <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+        </div>
+        <div class="buy-btn">
+          <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+        </div>
+
+
+      </div>
+
+      <!-- 9 -->
+      <div class="product-box">
+
+        <img src=" https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/8119785/2023/3/23/245e3927-923d-4e3b-8960-b32240122a2a1679565046616-Maybelline-New-York-Fit-Me-MattePoreless-Foundation-18-ml----1.jpg " alt="" >
+        <div class="flex pro-details">
+          <h2>Maybelline </h2>
+          <p class="pro-title"> Fit Me Matte Foundation </p>
+          <p class="pro-price">Rs. 399 <del>Rs.699</del><span>(75% OFF)</span></p>
+        </div>
+        <div class="rate flex">
+          <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+        </div>
+        <div class="buy-btn">
+          <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+        </div>
+
+
+      </div>
+
+      <!-- 10 -->
+      <div class="product-box">
+
+        <img src=" https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/12415738/2022/1/28/aff3c812-0409-429b-9795-235cfbc706ba1643364146436WOWAloeVeraMultipurposeBeautyGelforSkinandHair150ml1.jpg " alt="" >
+        <div class="flex pro-details">
+          <h2>  WOW SKIN SCIENCE</h2>
+          <p class="pro-title">Aloe Vera Beauty Gel  </p>
+          <p class="pro-price">Rs. 278 <del>Rs.1699</del><span>(75% OFF)</span></p>
+        </div>
+        <div class="rate flex">
+          <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+        </div>
+        <div class="buy-btn">
+          <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+        </div>
+      </div>
+
+      
+      <!-- 11 -->
+      <div class="product-box">
+
+        <img src=" https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/14470534/2023/3/10/25397b8d-107d-49e1-b1ed-b1ef1c5fae1f1678439894905PondsInstantSpotCoverageVitaminEnrichedSPF30BBCream30g-Ivory1.jpg " alt="" >
+        <div class="flex pro-details">
+          <h2> Ponds </h2>
+          <p class="pro-title"> BB+ Cream 30 g - Ivory </p>
+          <p class="pro-price">Rs. 178 <del>Rs.1699</del><span>(75% OFF)</span></p>
+        </div>
+        <div class="rate flex">
+          <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+        </div>
+        <div class="buy-btn">
+          <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+        </div>
+
+
+      </div>
+      <!-- 12 -->
+      <div class="product-box">
+
+        <img src=" https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/1954374/2022/4/21/c6aca250-8869-4d65-a660-53e5237e2ec11650523069595-Dove-Hair-Fall-Rescue-Shampoo-340-ml-5201650523069468-1.jpg " alt="">
+        <div class="flex pro-details">
+          <h2> Dove </h2>
+          <p class="pro-title"> Hair Fall Rescue Shampoo </p>
+          <p class="pro-price">Rs. 289 <del>Rs.1699</del><span>(75% OFF)</span></p>
+        </div>
+        <div class="rate flex">
+          <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+        </div>
+        <div class="buy-btn">
+          <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+        </div>
+
+
+      </div>
+
+      <!-- 13 -->
+      <div class="product-box">
+
+        <img src=" https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/13105598/2021/1/25/31c4c5f6-8540-46a1-952e-bf2094943cb71611572545003-Lakme-Women-Lipstick-361611572544138-1.jpg " alt="" >
+        <div class="flex pro-details">
+          <h2> Lakme </h2>
+          <p class="pro-title"> Primer Matte Lipstick - MP6 </p>
+          <p class="pro-price">Rs. 275<del>Rs.1699</del><span>(75% OFF)</span></p>
+        </div>
+        <div class="rate flex">
+          <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+        </div>
+        <div class="buy-btn">
+          <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+        </div>
+
+
+      </div>
+
+      <!-- 14 -->
+      <div class="product-box">
+
+        <img src="  https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/13391204/2023/4/19/b893af88-3419-4095-ad51-2cb753f81c241681898756274-Just-Herbs-Ayurvedic-Matte-Lipstick-Micro-Mini-Trial-Kit-Set-1.jpg" alt="" >
+        <div class="flex pro-details">
+          <h2> Just Herbs </h2>
+          <p class="pro-title">Ayurvedic Lipstick Trial Kit  </p>
+          <p class="pro-price">Rs. 400 <del>Rs.1699</del><span>(75% OFF)</span></p>
+        </div>
+        <div class="rate flex">
+          <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+        </div>
+        <div class="buy-btn">
+          <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+        </div>
+
+
+      </div>
+
+      <!-- 15 -->
+      <div class="product-box">
+
+        <img src=" https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/1963297/2023/3/23/da284cd6-2507-4426-8230-3c137f3888591679564588976-Maybelline-New-York-Color-Sensational-Creamy-Matte-Lipstick--1.jpg " alt="" >
+        <div class="flex pro-details">
+          <h2> Maybelline </h2>
+          <p class="pro-title"> Nude Nuance Matte Lipstick 657 </p>
+          <p class="pro-price">Rs. 299 <del>Rs.1699</del><span>(75% OFF)</span></p>
+        </div>
+        <div class="rate flex">
+          <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+        </div>
+        <div class="buy-btn">
+          <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+        </div>
+      </div>
+      
+      <!-- 16 -->
+      <div class="product-box">
+
+        <img src=" https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/19155272/2022/9/19/d517b16c-2559-48c2-a7cc-57a79995a4941663563652824FACESCANADAUltimeProSplashQuick-DryNailEnamel5ml-AllThatGlit1.jpg " alt="" >
+        <div class="flex pro-details">
+          <h2>FACES CANADA  </h2>
+          <p class="pro-title"> Ultime Pro Splash Mini Nail Enamel 5ml </p>
+          <p class="pro-price">Rs. 424 <del>Rs.1699</del><span>(75% OFF)</span></p>
+        </div>
+        <div class="rate flex">
+          <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+        </div>
+        <div class="buy-btn">
+          <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+        </div>
+
+
+      </div>
+      <!-- 17 -->
+      <div class="product-box">
+
+        <img src=" https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/23217274/2023/5/24/36eafe12-6599-40ee-9ee8-254073c396ae1684912625062ColorsQueenMellowMatteLongLastingCreamLipstick6ml-MauveParty3.jpg " alt="" >
+        <div class="flex pro-details">
+          <h2> Colors Queen </h2>
+          <p class="pro-title">Mellow Matte Cream Lipstick-16  </p>
+          <p class="pro-price">Rs. 424 <del>Rs.1699</del><span>(75% OFF)</span></p>
+        </div>
+        <div class="rate flex">
+          <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+        </div>
+        <div class="buy-btn">
+          <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+        </div>
+
+
+      </div>
+
+      <!-- 18 -->
+      <div class="product-box">
+
+        <img src="  https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/14095338/2022/12/29/62b4efb5-edd0-4683-a934-49e0a4d4f5791672300809633Lakme9to5PrimerGlossNailColour-LavenderBreeze1.jpg" alt="" >
+        <div class="flex pro-details">
+          <h2>Lakme </h2>
+          <p class="pro-title"> 9 to 5 Primer + Gloss Nail Colour</p>
+          <p class="pro-price">Rs. 424 <del>Rs.1699</del><span>(75% OFF)</span></p>
+        </div>
+        <div class="rate flex">
+          <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+        </div>
+        <div class="buy-btn">
+          <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+        </div>
+      </div>
+
+      <!-- 18 -->
+      <div class="product-box">
+
+        <img src=" https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/23619668/2023/6/13/e4ce9e91-9e08-488d-a659-b1bde93b12f51686662114638NailPolish1.jpg " alt="" >
+        <div class="flex pro-details">
+          <h2>  FORFOR</h2>
+          <p class="pro-title"> 2 Pcs Power Matte Nail Polish </p>
+          <p class="pro-price">Rs. 424 <del>Rs.1699</del><span>(75% OFF)</span></p>
+        </div>
+        <div class="rate flex">
+          <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+        </div>
+        <div class="buy-btn">
+          <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+        </div>
+      </div>
+
+      <!-- 18 -->
+      <div class="product-box">
+
+        <img src=" https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/9227399/2021/3/24/500ee26e-5005-47d1-ad4a-f4e7dde9c5ca1616572566479-Lakme-9-to-5-Primer--Gloss-Nail-Color---Lilac-Link-6-ml-6251-1.jpg " alt="" >
+        <div class="flex pro-details">
+          <h2>  Lakme</h2>
+          <p class="pro-title"> 9 to 5 Primer + Gloss Nail Colour </p>
+          <p class="pro-price">Rs. 424 <del>Rs.1699</del><span>(75% OFF)</span></p>
+        </div>
+        <div class="rate flex">
+          <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+        </div>
+        <div class="buy-btn">
+          <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+
+  <!-- content End -->
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- footer -->
+  <div class="nfoot">
+    <div class="in-foot">
+
+      <div class="fn1">
+        <img src="Images/logo.png" width="140">
+        <p style="padding-block: 10px; text-align: left; ">Discover endless shopping possibilities with our
+          user-friendly website, competitive prices, secure payment options, fast shipping, and exceptional customer
+          support. Shop now!</p>
+        <a href="#" class="get-started-btn primary-button">Shop Now <i class="fa-solid fa-cart-shopping"></i>
+        </a>
+      </div>
+      <div class="fn2">
+        <h4 class="fhead">Contact</h4>
+        <p><strong>Office Address: </strong> A-15 Near LIC Office Shastri <br> Nagar, Jodhpur, RAJ</p>
+        <p><strong>Phone:</strong> 0291-27765 / (+91) 9253811711</p>
+        <p><strong>Hours:</strong> 10:00 - 18:00, Mon - Sat</p>
+        <div class="follow">
+          <h4 class="fhead">Follow Us</h4>
+          <div class="icons">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-pinterest-p"></i>
+            <i class="fab fa-youtube"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="fn3">
+        <h4 class="fhead">About</h4>
+        <a href="#">About Us</a>
+        <a href="#">Delivery Information</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms & Conditions</a>
+        <a href="#">Contact Us</a>
+      </div>
+
+      <div class="fn4">
+        <h4 class="fhead">Navigations</h4>
+        <a href="#">Home</a>
+        <a href="#">Shop</a>
+        <a href="#">Blog</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+
+        <p style="font-weight: bold;">Secured Payment Gateway</p>
+        <img src="Images/payment.png" class="pay">
+      </div>
+
+    </div>
+  </div>
+
+  <div class="team">
+    <div class="tname">
+      <p>© 2023 QuickBuy. All Rights Reserved.</p>
+      <p>Website Design and Developed By <span style="color: rgb(31, 55, 69);
+        font-weight: bold;">WEBTECH TITANS</span></p>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://kit.fontawesome.com/9a63dbdc63.js" crossorigin="anonymous"></script>
+  <div class="bell">
+    <div class="container bl">
+      <i class="fa-regular fa-bell"></i>
+    </div>
+  </div>
+</body>
+
+</html>

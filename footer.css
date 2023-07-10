@@ -1,0 +1,129 @@
+
+
+/* New foot */
+
+.nfoot{
+    margin-top: 50px;
+    width: 100%;
+    background-color: #85FFBD;
+    background-image: linear-gradient(45deg, #dbffec 0%, #fffee4 100%);
+}
+
+.in-foot{
+    margin: 0 auto;
+    padding: 50px 50px;
+    width: 1200px;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.fn1{
+    width: 25%;
+
+}
+
+.fn1 p{
+    font-size: 16px;
+    color: #465b52;
+    margin: 15px 0 20px 0;
+    line-height: 1.5;
+}
+
+.fn2{
+    width: 35%;
+}
+
+.fn2 p{
+    font-size: 16px;
+    color: #465b52;
+    margin: 15px 0 20px 0;
+    line-height: 1.5;
+}
+
+.fn3{
+    width: 20%;
+}
+
+.fn3 a{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    color: rgb(83, 86, 89);
+    font-size: 16px;
+    font-weight: 500;
+    padding-block: 3px;
+    line-height: 1.5;
+}
+.fn4{
+    width: 20%;
+}
+
+.fn4 p{
+    font-size: 16px;
+    margin: 15px 0 20px 0;
+    color: #465b52;
+}
+
+.fn4 a{
+    line-height: 1.5;
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    color: rgb(83, 86, 89);
+    font-size: 16px;
+    font-weight: 500;
+    padding-block: 3px;
+}
+
+.fhead{
+    font-weight: bold;
+    font-size: 24px;
+    color: #41434d;
+    margin-bottom: 8px;
+}
+.follow{
+    margin-block: 30px;
+}
+
+.icons i{
+    padding: 10px 5px;
+    color: red;
+}
+
+.get-started-btn{
+    background-color: rgb(255, 81, 81);
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 700;
+    color: white !important;
+    padding: 12px 24px;
+    box-shadow: 0 0 2px var(--secondary-text-color);
+    transition: .2s ease-out;
+    font-size: 16px;
+}
+
+.team{
+    border-top: 1px solid rgb(84, 93, 85);
+    width: 100%;
+    background-color: #e7ffe4;
+    /* background-image: linear-gradient(45deg, #fff3c6 0%, #ffe0f6 100%); */
+
+
+}
+    
+.tname{
+    padding: 0 49px;
+    margin: 0 auto;
+    width: 1200px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 530;
+    color: #41434d;
+    font-size: 16px;
+}
+/* END  */

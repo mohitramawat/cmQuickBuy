@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile</title>
+    <link rel="stylesheet" href="../footer.css">
+    <link rel="stylesheet" href="mobile.css" />
+    <link rel="shortcut icon" type="image/png" href="../Common Files/image/favicon.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/24c494a6b6.js" crossorigin="anonymous"></script>
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+
+<body>
+
+    <section id="header">
+        <div class="navigation">
+            <div style="display: flex; width: 693px; height: 60px;">
+                <a href="#"><img src="Images/logo.png" class="logo" width="125" style="margin-top: 4px;"></a>
+                <ul id="navbar">
+                    <li><a href="../index.html" class="active">Home</a></li>
+                    <li><a href="../shop.html">Shop</a></li>
+                    <li><a href="../About us/aboutus.html">About</a></li>
+                    <li><a href="../contact.html">Contact</a></li>
+
+                    <div class="dropdown">
+                        <li><a href="#">Studio <sup style="color: #e02a2d; font-size: 14px;">New</sup></a></li>
+
+                        <div class="dropdown-content" style="width: 500px; min-height: 400px; top: 22px;;">
+
+                            <div class="box1" style="text-align: center;">
+                                <img src="Images/st.png" width="150px">
+                                <p>Your daily inspiration for everything fashion</p>
+                            </div>
+                            <div class="box2">
+                                <img src="Images/st1.png" alt="" width="100%" height="100%">
+                            </div>
+                            <div class="box3">
+                                <button class="explore-btn">EXPLORE STUDIO > </button>
+                            </div>
+
+                        </div>
+                    </div>
+                </ul>
+            </div>
+
+
+            <div style="display: flex;">
+
+                <!-- <div style="display: flex;"> -->
+                <i class="fa fa-search"></i>
+                <input type="text" class="header-input" placeholder="Search for products, brands and more">
+                <!-- </div> -->
+                <ul id="navbar" style="float: right;">
+                    <div class="dropdown">
+                        <li><a href="../cart.html"><i class="fa fa-solid fa-user dropdown-btn"></i></a></li>
+                        <div class="dropdown-content" style="width: 240px; position: absolute; left: -80px; top: 25px;">
+
+                            <div class="div1">
+                                <a href="" style="color: black; font-weight: 600;">Hello User</a>
+                                <a href="">8107122911</a>
+                            </div>
+                            <div class="div2">
+                                <a href="">Orders</a>
+                                <a href="">Wishlist</a>
+                                <a href="">Gift Cards</a>
+                                <a href="">Contact Us</a>
+                                <a href="">QuickBuy Insider <button class="new-btn">New</button></a>
+                            </div>
+                            <div class="div3">
+                                <a href="">QuickBuy Credit</a>
+                                <a href="">Coupons</a>
+                                <a href="">Saved Cards</a>
+                                <a href="">Saved VPA</a>
+                                <a href="">Saved Addresses</a>
+                            </div>
+                            <div class="div4">
+                                <a href="">Edit Profile</a>
+                                <a href="">Logout</a>
+                            </div>
+                        </div>
+                    </div>
+                    <li><a href="../cart/cart.html"><i class="fa fa-bag-shopping"></i></a></li>
+                    <li><a href="../wishlist2/wish.html"><i class="fa-solid fa-heart"></i></a></li>
+
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section id="header2">
+
+        <div class="navbar2">
+            <div class="navbar2img"><a href="../fashion.html"><img src="Images/h2.jpg"><br><a href="#"
+                        style="padding-left: 20px;">Fashion</a></div>
+            <div class="navbar2img"><a href="mobile.html"><img src="Images/h4.jpg"><br><a href="#"
+                        style="padding-left: 20px;">Mobiles</a></div>
+            <div class="navbar2img"><a href="../electronics.html"><img src="Images/h6.jpg"><br><a href="#"
+                        style="padding-left: 10px;">Electronics</a></div>
+            <div class="navbar2img"><a href="../beauty.html"><img src="Images/h5.png"><br><a href="#"
+                        style="padding-left: 22px;">Beauty</a></div>
+            <div class="navbar2img"><a href="../furniture/furniture.html"><img src="Images/h3.jpg"><br><a href="#"
+                        style="padding-left: 20px;">Furniture</a></div>
+        </div>
+
+    </section>
+
+
+
+
+    <div id="sorting">
+
+        <select class="filter" id="brandFilter">
+            <option id="normal" value="all">FILTER BY BRAND</option>
+            <option value="">Apple</option>
+            <option value="">Pixel</option>
+            <option value="">Nothing</option>
+            <option value="">Samsung</option>
+            <option value="">Mi</option>
+            <option value="">Vivo</option>
+            <option value="">Oppo</option>
+            <option value="">Realme</option>
+            <option value="">Motorola</option>
+            <option value="">Oneplus</option>
+        </select>
+
+        <select class="filter" id="priceSort">
+            <option value="---">SORT BY PRICE</option>
+            <option value="lth">Low → High</option>
+            <option value="htl">High → Low</option>
+        </select>
+
+        <select class="filter" id="nameSort">
+            <option value="---">SORT BY NAME</option>
+            <option value="asc">Ascending</option>
+            <option value="dsc">Descending</option>
+        </select>
+
+    </div>
+
+    <div class="product-name">
+        <div>
+            <p>Men - <span>17885 items</span></p>
+        </div>
+    </div>
+    <div id="wrapper">
+        <div id="filter">
+            <div class="a">
+                <h3>FILTERS </h3>
+                <div>
+                    <input type="radio" id="sagar" name="group">
+                    <label for="sagar">16GB</label><br>
+                    <input type="radio" id="rb" name="group">
+                    <label for="rb">8GB</label><br>
+                    <input type="radio" id="rb" name="group">
+                    <label for="rb">4GB</label><br>
+                    <input type="radio" id="rb" name="group">
+                    <label for="rb">2GB</label>
+                </div>
+
+            </div>
+            <div class="b">
+                <h3>BRAND</h3>
+                <div>
+                    <input type="checkbox" id="cb" name="group">
+                    <label for="cb">Apple</label><br>
+                    <input type="checkbox" id="cb" name="group">
+                    <label for="cb">Oneplus</label><br>
+                    <input type="checkbox" id="cb" name="group">
+                    <label for="cb">Realme</label><br>
+                    <input type="checkbox" id="cb" name="group">
+                    <label for="cb">Oppo</label><br>
+                    <input type="checkbox" id="cb" name="group">
+                    <label for="cb">Vivo</label><br>
+                    <input type="checkbox" id="cb" name="group">
+                    <label for="cb">Motorola</label><br>
+                    <input type="checkbox" id="cb" name="group">
+                    <label for="cb">Nothing</label><br>
+                    <input type="checkbox" id="cb" name="group">
+                    <label for="cb">Samsung</label>
+                </div>
+
+            </div>
+            <div class="b">
+                <h3>PRICE</h3>
+                <div>
+                    <input type="checkbox" id="cb" name="group">
+                    <label for="cb">Rs 4999 to Rs 9999</label><br>
+                    <input type="checkbox" id="cb" name="group">
+                    <label for="cb">Rs. 9999 to Rs. 14999</label><br>
+                    <input type="checkbox" id="cb" name="group">
+                    <label for="cb">Rs. 14999 to Rs. 39999</label><br>
+                    <input type="checkbox" id="cb" name="group">
+                    <label for="cb">Rs. 39999 to Rs. 49999</label><br>
+                </div>
+
+            </div>
+            <div class="b">
+                <h3>COLOR</h3>
+                <div>
+                    <input type="checkbox" id="cb" name="group">
+                    <label for="cb">Blue</label><br>
+                    <input type="checkbox" id="cb" name="group">
+                    <label for="cb">Navy Blue</label><br>
+                    <input type="checkbox" id="cb" name="group">
+                    <label for="cb">Black</label><br>
+                    <input type="checkbox" id="cb" name="group">
+                    <label for="cb">White</label><br>
+                    <input type="checkbox" id="cb" name="group">
+                    <label for="cb">Grey</label><br>
+                    <input type="checkbox" id="cb" name="group">
+                    <label for="cb">Red</label><br>
+                    <input type="checkbox" id="cb" name="group">
+                    <label for="cb">Green</label><br>
+                </div>
+
+            </div>
+            <div class="c">
+                <h3>DISCOUNT RANGE</h3>
+                <div>
+                    <input type="radio" id="rb" name="group">
+                    <label for="rb">10% and above</label><br>
+                    <input type="radio" id="rb" name="group">
+                    <label for="rb">20% and above</label><br>
+                    <input type="radio" id="rb" name="group">
+                    <label for="rb">30% and aboves</label><br>
+                    <input type="radio" id="rb" name="group">
+                    <label for="rb">40% and above</label><br>
+                    <input type="radio" id="rb" name="group">
+                    <label for="rb">50% and above</label><br>
+                    <input type="radio" id="rb" name="group">
+                    <label for="rb">60% and above</label><br>
+
+
+                </div>
+
+            </div>
+        </div>
+        <!-- product -->
+
+        <div class="product">
+
+
+            <div class="product-box">
+                <img src="men-image/1.webp" alt="">
+                <div class="flex pro-details">
+                    <h2>SAMSUNG S21 FE 5G </h2>
+                    <p class="pro-title">(White, 128 GB)</p>
+                    <p class="pro-price">₹39,999 <del>₹74,999</del><span>(46% OFF)</span></p>
+                </div>
+                <div class="rate flex">
+                    <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+                </div>
+                <div class="buy-btn">
+                    <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+                </div>
+            </div>
+
+            <div class="product-box">
+                <img src="men-image/2.webp" alt="">
+                <div class="flex pro-details">
+                    <h2>SAMSUNG Z Flip3 5G </h2>
+                    <p class="pro-title">(Phantom Black, 128 GB)</p>
+                    <p class="pro-price">₹49,999 <del>₹95,999</del><span>(46% OFF)</span></p>
+                </div>
+                <div class="rate flex">
+                    <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+                </div>
+                <div class="buy-btn">
+                    <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+                </div>
+            </div>
+
+            <div class="product-box">
+                <img src="men-image/3.webp" alt="">
+                <div class="flex pro-details">
+                    <h2>SAMSUNG Galaxy F13</h2>
+                    <p class="pro-title">(Waterfall Blue, 128 GB)</p>
+                    <p class="pro-price">₹11,999 <del>₹16,999</del><span>(29% OFF)</span></p>
+                </div>
+                <div class="rate flex">
+                    <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+                </div>
+                <div class="buy-btn">
+                    <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+                </div>
+            </div>
+
+            <div class="product-box">
+                <img src="men-image/4.webp" alt="">
+                <div class="flex pro-details">
+                    <h2>SAMSUNG Galaxy F14 5G</h2>
+                    <p class="pro-title">(GOAT Green, 128 GB)</p>
+                    <p class="pro-price">₹15,990 <del>₹18,490</del><span>(13% OFF)</span></p>
+                </div>
+                <div class="rate flex">
+                    <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+                </div>
+                <div class="buy-btn">
+                    <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+                </div>
+            </div>
+
+            <div class="product-box">
+                <img src="men-image/5.webp" alt="">
+                <div class="flex pro-details">
+                    <h2>APPLE iPhone 14 Pro Max</h2>
+                    <p class="pro-title">(Deep Purple, 128 GB)</p>
+                    <p class="pro-price">₹1,27,999 <del>₹1,39,900</del><span>(8% OFF)</span></p>
+                </div>
+                <div class="rate flex">
+                    <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+                </div>
+                <div class="buy-btn">
+                    <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+                </div>
+            </div>
+
+            <div class="product-box">
+                <img src="men-image/6.webp" alt="">
+                <div class="flex pro-details">
+                    <h2>APPLE iPhone 13 </h2>
+                    <p class="pro-title">(Starlight, 128 GB)</p>
+                    <p class="pro-price">₹60,999 <del>₹69,900</del><span>(12% OFF)</span></p>
+                </div>
+                <div class="rate flex">
+                    <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+                </div>
+                <div class="buy-btn">
+                    <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+                </div>
+            </div>
+
+            <div class="product-box">
+                <img src="men-image/7.webp" alt="">
+                <div class="flex pro-details">
+                    <h2>APPLE iPhone 13</h2>
+                    <p class="pro-title">(Midnight, 128 GB)</p>
+                    <p class="pro-price">₹60,999 <del>₹69,900</del><span>(12% OFF)</span></p>
+                </div>
+                <div class="rate flex">
+                    <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+                </div>
+                <div class="buy-btn">
+                    <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+                </div>
+            </div>
+
+            <div class="product-box">
+                <img src="men-image/8.webp" alt="">
+                <div class="flex pro-details">
+                    <h2>APPLE iPhone 14</h2>
+                    <p class="pro-title">(Blue, 128 GB)</p>
+                    <p class="pro-price">₹70,999 <del>₹79,900</del><span>(11% OFF)</span></p>
+                </div>
+                <div class="rate flex">
+                    <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+                </div>
+                <div class="buy-btn">
+                    <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+                </div>
+            </div>
+
+            <div class="product-box">
+                <img src="men-image/9.webp" alt="">
+                <div class="flex pro-details">
+                    <h2>vivo T2x 5G </h2>
+                    <p class="pro-title">(Aurora Gold, 128 GB)</p>
+                    <p class="pro-price">₹139,99 <del>₹18,999</del><span>(26% OFF)</span></p>
+                </div>
+                <div class="rate flex">
+                    <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+                </div>
+                <div class="buy-btn">
+                    <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+                </div>
+            </div>
+
+            <div class="product-box">
+                <img src="men-image/10.webp" alt="">
+                <div class="flex pro-details">
+                    <h2>MOTOROLA G32 </h2>
+                    <p class="pro-title">(Mineral Gray, 128 GB)</p>
+                    <p class="pro-price">₹11,999 <del>₹18,999</del><span>(36% OFF)</span></p>
+                </div>
+                <div class="rate flex">
+                    <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+                </div>
+                <div class="buy-btn">
+                    <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+                </div>
+            </div>
+
+            <div class="product-box">
+                <img src="men-image/11.webp" alt="">
+                <div class="flex pro-details">
+                    <h2>REDMI Note 12 Pro 5G</h2>
+                    <p class="pro-title">(Stardust Purple, 128 GB)</p>
+                    <p class="pro-price">₹23,999 <del>₹27,999</del><span>(14% OFF)</span></p>
+                </div>
+                <div class="rate flex">
+                    <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+                </div>
+                <div class="buy-btn">
+                    <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+                </div>
+            </div>
+
+            <div class="product-box">
+                <img src="men-image/12.webp" alt="">
+                <div class="flex pro-details">
+                    <h2>REDMI Note 12 Pro+ 5G</h2>
+                    <p class="pro-title">(Obsidian Black, 256 GB)</p>
+                    <p class="pro-price">₹29,999<del>₹33,999</del><span>(11% OFF)</span></p>
+                </div>
+                <div class="rate flex">
+                    <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+                </div>
+                <div class="buy-btn">
+                    <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+                </div>
+            </div>
+
+
+            <div class="product-box">
+                <img src="men-image/13.webp" alt="">
+                <div class="flex pro-details">
+                    <h2>OPPO Reno8T 5G </h2>
+                    <p class="pro-title">(Sunrise Gold, 128 GB)</p>
+                    <p class="pro-price">₹29,999<del>₹38,999</del><span>(23% OFF)</span></p>
+                </div>
+                <div class="rate flex">
+                    <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+                </div>
+                <div class="buy-btn">
+                    <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+                </div>
+            </div>
+
+            <div class="product-box">
+                <img src="men-image/pix.webp" alt="">
+                <div class="flex pro-details">
+                    <h2>Google Pixel 6a</h2>
+                    <p class="pro-title">(Chalk, 128 GB)</p>
+                    <p class="pro-price">₹27,999<del>₹74,999</del><span>(36% OFF)</span></p>
+                </div>
+                <div class="rate flex">
+                    <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+                </div>
+                <div class="buy-btn">
+                    <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+                </div>
+            </div>
+
+            <div class="product-box">
+                <img src="men-image/15.webp" alt="">
+                <div class="flex pro-details">
+                    <h2>vivo V27 5G </h2>
+                    <p class="pro-title">(Magic Blue, 128 GB)</p>
+                    <p class="pro-price">₹36,999 <del>₹29,999</del><span>(10% OFF)</span></p>
+                </div>
+                <div class="rate flex">
+                    <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+                </div>
+                <div class="buy-btn">
+                    <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+                </div>
+            </div>
+
+            <div class="product-box">
+                <img src="men-image/16.webp" alt="">
+                <div class="flex pro-details">
+                    <h2>OnePlus Nord 2T 5G</h2>
+                    <p class="pro-title">(Gray Shadow, 128 GB)</p>
+                    <p class="pro-price">₹28,095 <del>₹28,999</del><span>(3% OFF)</span></p>
+                </div>
+                <div class="rate flex">
+                    <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+                </div>
+                <div class="buy-btn">
+                    <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+                </div>
+            </div>
+
+            <div class="product-box">
+                <img src="men-image/17.webp" alt="">
+                <div class="flex pro-details">
+                    <h2>OnePlus Nord 2T 5G </h2>
+                    <p class="pro-title">Jade Fog, 128 GB)</p>
+                    <p class="pro-price">₹27,984 <del>₹28,988</del><span>(3% OFF)</span></p>
+                </div>
+                <div class="rate flex">
+                    <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+                </div>
+                <div class="buy-btn">
+                    <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+                </div>
+            </div>
+
+            <div class="product-box">
+                <img src="men-image/18.webp" alt="">
+                <div class="flex pro-details">
+                    <h2>OnePlus 10T 5G</h2>
+                    <p class="pro-title">(Moonstone Black, 128 GB)</p>
+                    <p class="pro-price">₹45,999 <del>₹49,999</del><span>(8% OFF)</span></p>
+                </div>
+                <div class="rate flex">
+                    <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+                </div>
+                <div class="buy-btn">
+                    <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+                </div>
+            </div>
+
+            <div class="product-box">
+                <img src="men-image/19.webp" alt="">
+                <div class="flex pro-details">
+                    <h2>Nothing Phone (1)</h2>
+                    <p class="pro-title">(White, 256 GB) (8 GB RAM)</p>
+                    <p class="pro-price">₹31,499 <del>₹39,999</del><span>(21% OFF)</span></p>
+                </div>
+                <div class="rate flex">
+                    <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+                </div>
+                <div class="buy-btn">
+                    <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+                </div>
+            </div>
+
+            <div class="product-box">
+                <img src="men-image/20.webp" alt="">
+                <div class="flex pro-details">
+
+                    <h2>Nothing Phone (2)</h2>
+                    <p class="pro-title">(Black, 128 GB)</p>
+                    <p class="pro-price">₹29,499 <del>₹37,999</del><span>(22% OFF)</span></p>
+                </div>
+                <div class="rate flex">
+                    <p>3.9 <i class="fa-solid fa-star"></i> | 1.5k</p>
+                </div>
+                <div class="buy-btn">
+                    <button><i class="fa-solid fa-cart-shopping"></i> BUY</button>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    </div>
+
+
+
+
+
+    <div class="nfoot">
+        <div class="in-foot">
+    
+          <div class="fn1">
+            <img src="Images/logo.png" width="140">
+            <p style="padding-block: 10px; text-align: left; ">Discover endless shopping possibilities with our user-friendly website, competitive prices, secure payment options, fast shipping, and exceptional customer support. Shop now!</p>
+            <a href="#" class="get-started-btn primary-button">Shop Now <i class="fa-solid fa-cart-shopping"></i>
+            </a>
+          </div>
+          <div class="fn2">
+            <h4 class="fhead">Contact</h4>
+            <p><strong>Office Address: </strong> A-15 Near LIC Office Shastri <br> Nagar, Jodhpur, RAJ</p>
+            <p><strong>Phone:</strong> 0291-27765 / (+91) 9253811711</p>
+            <p><strong>Hours:</strong> 10:00 - 18:00, Mon - Sat</p>
+            <div class="follow">
+              <h4 class="fhead" >Follow Us</h4>
+              <div class="icons">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-pinterest-p"></i>
+                <i class="fab fa-youtube"></i>
+              </div>
+            </div>
+          </div>
+      
+          <div class="fn3">
+            <h4 class="fhead">About</h4>
+            <a href="#">About Us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact Us</a>
+          </div>
+      
+          <div class="fn4">
+            <h4 class="fhead">Navigations</h4>
+            <a href="#">Home</a>
+            <a href="#">Shop</a>
+            <a href="#">Blog</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+      
+            <p style="font-weight: bold;">Secured Payment Gateway</p>
+            <img src="Images/payment.png" class="pay">
+          </div>
+      
+        </div>
+      </div>
+    
+      <div class="team">
+        <div class="tname">
+            <p>© 2023 QuickBuy. All Rights Reserved.</p>
+            <p>Website Design and Developed By <span 
+            style="color: rgb(31, 55, 69);
+            font-weight: bold;">WEBTECH TITANS</span></p>
+        </div>
+      </div>
+    
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+      <script src="https://kit.fontawesome.com/9a63dbdc63.js" crossorigin="anonymous"></script>
+      <div class="bell">
+        <div class="container bl">
+            <i class="fa-regular fa-bell"></i>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
+
+
+<script src="mens.js"></script>

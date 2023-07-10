@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shopping Bag</title>
+  <link rel="stylesheet" href="../footer.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <section id="header">
+    <div class="navigation">
+      <div style="display: flex; width: 693px; height: 60px;" >
+        <a href="#"><img src="Images/logo.png" class="logo"  width="125" style="margin-top: 4px;"></a>
+        <ul id="navbar">
+          <li><a href="../index.html" class="active">Home</a></li>
+          <li><a href="../shop.html">Shop</a></li>
+          <li><a href="../About us/aboutus.html">About</a></li>
+          <li><a href="../contact.html">Contact</a></li>
+
+          <div class="dropdown">
+            <li><a href="#">Studio <sup style="color: #e02a2d; font-size: 14px;">New</sup></a></li>
+
+            <div class="dropdown-content" style="width: 500px; min-height: 400px; top: 22px;;">
+
+              <div class="box1" style="text-align: center;">
+                <img src="Images/st.png" width="150px">
+                <p>Your daily inspiration for everything fashion</p>
+              </div>
+              <div class="box2">
+                <img src="Images/st1.png" alt="" width="100%" height="100%">
+              </div>
+              <div class="box3">
+                <button class="explore-btn">EXPLORE STUDIO > </button>
+              </div>
+
+            </div>
+          </div>
+        </ul>
+      </div>
+
+
+      <div style="display: flex;">
+
+        <!-- <div style="display: flex;"> -->
+          <i class="fa fa-search"></i>
+          <input type="text" class="header-input" placeholder="Search for products, brands and more">
+        <!-- </div> -->
+        <ul id="navbar" style="float: right;">
+          <div class="dropdown">
+            <li><a href="cart.html"><i class="fa fa-solid fa-user dropdown-btn"></i></a></li>
+            <div class="dropdown-content" style="width: 240px; position: absolute; left: -80px; top: 25px;">
+
+              <div class="div1">
+                <a href="" style="color: black; font-weight: 600;">Hello User</a>
+                <a href="">8107122911</a>
+              </div>
+              <div class="div2">
+                <a href="">Orders</a>
+                <a href="">Wishlist</a>
+                <a href="">Gift Cards</a>
+                <a href="">Contact Us</a>
+                <a href="">QuickBuy Insider <button class="new-btn">New</button></a>
+              </div>
+              <div class="div3">
+                <a href="">QuickBuy Credit</a>
+                <a href="">Coupons</a>
+                <a href="">Saved Cards</a>
+                <a href="">Saved VPA</a>
+                <a href="">Saved Addresses</a>
+              </div>
+              <div class="div4">
+                <a href="">Edit Profile</a>
+                <a href="">Logout</a>
+              </div>
+            </div>
+          </div>
+          <li><a href="cart.html"><i class="fa fa-bag-shopping"></i></a></li>
+          <li><a href="../wishlist2/wish.html"><i class="fa-solid fa-heart"></i></a></li>
+
+        </ul>
+      </div>
+    </div>
+  </section>
+
+
+  <div class="header">
+    <div class="cont">
+        <img src="c1.png" alt="" width="100">
+        <div class="process">
+            <span style="margin-left: 80px;">BAG</span> ---------- ADDRESS ---------- PAYMENT
+        </div>
+        <img src="c2.png" alt="" width="150">
+    </div>
+</div>
+
+<div class="cart">
+    <div class="mcart flex">
+        
+        <div class="lcart flex">
+            <div class="adrs flex">
+                <p>Deliver to: <span style="font-weight: bold;">Nishit Prajapat,342001</span> <br>
+                1st Puliya, CHB, Jodhpur City, Rajasthan</p>
+                <button class="primary-btn">CHANGE ADDRESS</button>
+            </div>
+            <div class="offer flex">
+                <p ><img src="c3.png" alt="" width="25px" style="margin:0px 5px -5px 0;"><span style="font-weight: bold;">Available Offer</span></p>
+                <p style="padding-left: 20px;">5% Unlimited Cashback on Flipkart Axis Bank Credit Card. TCA</p>
+                <p style="color: rgb(255, 63, 108);
+                font-weight: bold; padding-left: 20px;">Show more <i class="fa-solid fa-caret-down"></i></p>
+            </div>
+
+            <div class="select flex">
+                <div class="sl flex" style="gap: 10px;">
+                    <input type="checkbox" class="checkmark" checked>
+                    <p>1/1 ITEMS SELECTED</p>
+                </div>
+                <p><span style="color: rgb(255, 63, 108);">REMOVE</span> | MOVE TO WISHLIST</p>
+            </div>
+
+            <div class="product  flex">
+                <img src="c4.webp" alt="" width="110px">
+                <div class="flex" style="flex-direction: column; gap: 5px;">
+                    <p><span style="font-weight: bold;">Puma</span></p>
+                    <p>Shuttle Aero Badminton Shoes</p>
+                    <p style="font-size: 11px; color: rgb(105, 105, 105);">Sold by: Puma Sports India Pvt. Ltd.(NSCM)</p>
+                    <div>
+                        <button class="pro-btn">Size: 10 ▾</button>
+                        <button class="pro-btn">Qty: 1 ▾</button>
+                    </div>
+                    <p><span style="font-weight: bold; padding-right: 3px;"> ₹2,599 </span>  
+                        <del>₹3,999</del>
+                        <span class="pink">35% OFF</span></p>
+                    <p>  <i class="fa-solid fa-retweet pink"></i> 14 days return available</p> 
+                    <p class="cross"><i class="fa-sharp fa-regular fa-x fa-xs"></i></p>
+                    
+                </div>
+
+                
+            </div>
+
+            <div class="wish flex" style="height: 44px; flex-direction: row; justify-content: space-between;">
+                <p ><i class="fa-regular fa-bookmark" style="margin:5px 10px 5px 10px;"></i><span style="font-weight: bold;">Add More From wishlist</span></p>
+                <p><i class="fa-solid fa-arrow-right"></i></p>
+            </div>
+            <!--  -->
+
+        </div>
+
+
+        
+        <!-- rcart -->
+        <div class="rcart flex">
+            <div class="r1">
+                <p class="pstyle">COUPONS</p>
+                <div class="flex r-box">
+                    <p style="font-size: 14px;"> <i class="fa-solid fa-tag" style="padding-right: 10px;"></i> Apply Coupons</p>
+                    <button class="primary-btn">Apply</button>
+                </div>
+                
+            </div>
+            <div class="r2 r-box flex" style="flex-direction: column;" >
+                <p class="pstyle" style="font-weight: bold;
+                font-size: 13px;
+                color: rgb(102, 101, 101);">PRICE DETAILS (1 Item)</p>
+                <div class="flex" style="justify-content: space-between; padding-block: 5px;">
+                    <p>Total MRP</p>
+                    <p>₹3,999</p>
+                </div>
+                <div class="flex" style="justify-content: space-between; padding-block: 5px;">
+                    <p>Discount on MRP</p>
+                    <p class="green">-₹1,400</p>
+                </div>
+                <div class="flex" style="justify-content: space-between; padding-block: 5px;">
+                    <p>Coupon Discount</p>
+                    <p class="pink">Apply Coupon</p>
+                </div>
+                <div class="flex" style="justify-content: space-between; padding-block: 5px;">
+                    <p>Convenience Fee <span class="pink" style="font-weight: bold;">Know More</span></p>
+                    <p><del>₹10</del> <span class="green">FREE</span></p>
+                </div>
+
+            </div>
+            <div class="r3 r-box flex"></i>
+                <p style="font-size: 14px;"> Total Amount</p>
+
+                <p style="font-size: 14px;"> ₹2,599</p>
+                    
+            </div>
+            <button class="primary-btn place-btn">PLACE ORDER</button>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="fot" >
+    <div class="finner flex" style="flex-direction: columns;justify-content: space-between; align-items: center;">
+        <div style="padding-block: 5px;">
+            <img src="c4.png" alt="" width="70px">
+            <img src="c5.png" alt="" width="60px">
+            <img src="c6.png" alt="" width="60px">
+            <img src="c7.png" alt="" width="60px">
+            <img src="c8.png" alt="" width="60px">
+            <img src="c9.png" alt="" width="69px"`>
+            <img src="c10.png" alt="" width="74px">
+            <img src="c11.png" alt="" width="60px">
+            <img src="c12.png" alt="" width="60px">
+            <img src="c13.png" alt="" width="60px">
+        </div>
+        <div>
+            <span style="font-weight: bold;
+            font-size: 13px;">Need Help ? Contact us</span>
+        </div>
+    </div>
+</div>
+
+<!--ADDITIONAL-->
+<div id="id01" class="modal">
+
+  <section class="modal-content animate" action="/action_page.php" method="post">
+      <div class="imgcontainer">
+          <span onclick="document.getElementById('id01').style.display='none'" class="close"
+              title="Close Modal">&times;</span>
+      </div>
+  </section>
+</div>
+
+
+
+<script>
+  document.getElementById('id01').style.display = 'block';
+
+  var modal = document.getElementById('id01');
+  document.addEventListener("keydown", ({ key }) => {
+      if (key === "Escape") {
+          if (modal.style.display = "block") {
+              modal.style.display = "none";
+          }
+      }
+  });
+
+   var modal = document.getElementById('id01');
+</script>
+
+<script src="https://kit.fontawesome.com/9a63dbdc63.js" crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/9a63dbdc63.js" crossorigin="anonymous"></script>
+
+
+<div class="nfoot">
+  <div class="in-foot">
+
+    <div class="fn1">
+      <img src="Images/logo.png" width="140">
+      <p style="padding-block: 10px; text-align: left; ">Discover endless shopping possibilities with our user-friendly website, competitive prices, secure payment options, fast shipping, and exceptional customer support. Shop now!</p>
+      <a href="#" class="get-started-btn primary-button">Shop Now <i class="fa-solid fa-cart-shopping"></i>
+      </a>
+    </div>
+    <div class="fn2">
+      <h4 class="fhead">Contact</h4>
+      <p><strong>Office Address: </strong> A-15 Near LIC Office Shastri <br> Nagar, Jodhpur, RAJ</p>
+      <p><strong>Phone:</strong> 0291-27765 / (+91) 9253811711</p>
+      <p><strong>Hours:</strong> 10:00 - 18:00, Mon - Sat</p>
+      <div class="follow">
+        <h4 class="fhead" >Follow Us</h4>
+        <div class="icons">
+          <i class="fab fa-facebook"></i>
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-pinterest-p"></i>
+          <i class="fab fa-youtube"></i>
+        </div>
+      </div>
+    </div>
+
+    <div class="fn3">
+      <h4 class="fhead">About</h4>
+      <a href="#">About Us</a>
+      <a href="#">Delivery Information</a>
+      <a href="#">Privacy Policy</a>
+      <a href="#">Terms & Conditions</a>
+      <a href="#">Contact Us</a>
+    </div>
+
+    <div class="fn4">
+      <h4 class="fhead">Navigations</h4>
+      <a href="#">Home</a>
+      <a href="#">Shop</a>
+      <a href="#">Blog</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+
+      <p style="font-weight: bold;">Secured Payment Gateway</p>
+      <img src="Images/payment.png" class="pay">
+    </div>
+
+  </div>
+</div>
+
+<div class="team">
+  <div class="tname">
+      <p>© 2023 QuickBuy. All Rights Reserved.</p>
+      <p>Website Design and Developed By <span 
+      style="color: rgb(31, 55, 69);
+      font-weight: bold;">WEBTECH TITANS</span></p>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://kit.fontawesome.com/9a63dbdc63.js" crossorigin="anonymous"></script>
+<div class="bell">
+  <div class="container bl">
+      <i class="fa-regular fa-bell"></i>
+  </div>
+</div>
+  </body>
